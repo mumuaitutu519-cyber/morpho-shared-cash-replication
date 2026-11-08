@@ -1,0 +1,117 @@
+{
+  "all_facilities": {
+    "events": 231,
+    "transactions": 227,
+    "point_identified": 185,
+    "zero_lower": 38,
+    "fully_arrival_funded": 180,
+    "width_usdc": {
+      "min": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 504557.08571400004,
+      "max": 2292996.564805
+    },
+    "width_pct_deposit": {
+      "min": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 100.0,
+      "max": 100.0
+    },
+    "sum_event_lower_micro": "888421960642019",
+    "sum_event_upper_micro": "909201799519090"
+  },
+  "vault": {
+    "events": 94,
+    "transactions": 93,
+    "point_identified": 53,
+    "zero_lower": 35,
+    "fully_arrival_funded": 52,
+    "width_usdc": {
+      "min": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 155028.56703049998,
+      "p95": 1194222.6697270987,
+      "max": 2292996.564805
+    },
+    "width_pct_deposit": {
+      "min": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 100.0,
+      "p95": 100.0,
+      "max": 100.0
+    },
+    "sum_event_lower_micro": "471787997608733",
+    "sum_event_upper_micro": "489890981523934",
+    "prior_close_coverage_pct": {
+      "min": 9.738901840634382,
+      "p25": 16.830972805326777,
+      "median": 21.31730521987039,
+      "p75": 26.592279870828715,
+      "p95": 44.9730922281864,
+      "max": 82.80484719706102
+    },
+    "same_day_close_coverage_pct": {
+      "min": 3.3465381813833566,
+      "p25": 16.802538772270086,
+      "median": 20.835418024798948,
+      "p75": 23.626364427076446,
+      "p95": 44.849914371622376,
+      "max": 82.80484719706102
+    },
+    "prior_close_below_25pct_events": 63,
+    "same_day_close_below_25pct_events": 72,
+    "prior_close_lag_hours": {
+      "min": 0.3005555555555556,
+      "p25": 6.49125,
+      "median": 14.126666666666665,
+      "p75": 18.49486111111111,
+      "p95": 21.95636111111111,
+      "max": 23.854444444444443
+    },
+    "same_day_close_lead_hours": {
+      "min": 0.14555555555555555,
+      "p25": 5.505138888888888,
+      "median": 9.873333333333335,
+      "p75": 17.50875,
+      "p95": 22.89286111111111,
+      "max": 23.699444444444445
+    },
+    "prior_close_positive_funding_and_subquarter_events": 36,
+    "prior_close_positive_funding_and_subquarter_lower_micro": "326614619550245",
+    "same_day_close_positive_funding_and_subquarter_events": 43,
+    "same_day_close_positive_funding_and_subquarter_lower_micro": "343560501448541"
+  },
+  "psm": {
+    "events": 137,
+    "transactions": 137,
+    "point_identified": 132,
+    "zero_lower": 3,
+    "fully_arrival_funded": 128,
+    "width_usdc": {
+      "min": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 1666510.097667
+    },
+    "width_pct_deposit": {
+      "min": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 100.0
+    },
+    "sum_event_lower_micro": "416633963033286",
+    "sum_event_upper_micro": "419310817995156"
+  },
+  "lp_max_error_usdc": 1.6880221664905548e-09,
+  "interpretation": "Marginal event intervals, not additive joint endpoints. Adjacent observed UTC closes, not exact transaction-state capacity; account capacity is pooled, not cohort-owned."
+}

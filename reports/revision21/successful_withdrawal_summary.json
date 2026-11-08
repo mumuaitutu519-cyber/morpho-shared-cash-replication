@@ -1,0 +1,61 @@
+{
+  "transactions": 12321,
+  "events": 12325,
+  "zero_withdrawal_days": 83,
+  "all_days": 319,
+  "transaction_amount_million": {
+    "min": 7.3046404e-05,
+    "p25": 0.131314587916,
+    "median": 0.198823704464,
+    "p75": 0.440235529485,
+    "p90": 1.013955624927,
+    "p95": 1.56950304188,
+    "max": 34.260161434518
+  },
+  "transaction_ratio_pct": {
+    "min": 1.4547209756835278e-05,
+    "p25": 0.029676587039407103,
+    "median": 0.047365172628171096,
+    "p75": 0.10611305079884566,
+    "p90": 0.2556423228238253,
+    "p95": 0.4422561265435646,
+    "max": 24.603308674058656
+  },
+  "daily_ratio_pct": {
+    "min": 0.0,
+    "p25": 0.0,
+    "median": 3.3853050502468887,
+    "p75": 6.785785280111774,
+    "p90": 13.912721209229982,
+    "p95": 19.333168797822747,
+    "max": 33.77467239580737
+  },
+  "threshold_exceedances": [
+    {
+      "pct": 5,
+      "transactions": 17,
+      "days": 112
+    },
+    {
+      "pct": 10,
+      "transactions": 2,
+      "days": 48
+    },
+    {
+      "pct": 25,
+      "transactions": 0,
+      "days": 8
+    },
+    {
+      "pct": 50,
+      "transactions": 0,
+      "days": 0
+    },
+    {
+      "pct": 100,
+      "transactions": 0,
+      "days": 0
+    }
+  ],
+  "denominator": "Prior daily close owner claim; successful events only; neither pre-transaction claim nor latent demand"
+}

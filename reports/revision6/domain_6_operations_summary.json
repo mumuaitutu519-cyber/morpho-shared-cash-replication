@@ -1,0 +1,41 @@
+{
+  "domain": 6,
+  "complete_route_discovery": true,
+  "source_burns": 3235,
+  "source_micro_usdc": "2815362407725804",
+  "matched_burns": 3235,
+  "matched_micro_usdc": "2815362407725804",
+  "unmatched_by_cutoff": 0,
+  "destination_transactions": 704,
+  "transactions_with_validated_deposit": 227,
+  "transactions_with_validated_withdrawal": 64,
+  "transactions_without_validated_operation": 414,
+  "unlinked_operations": 0,
+  "delay_seconds": {
+    "median": 1058.0,
+    "max": 4832
+  },
+  "operations": {
+    "PSM deposit": {
+      "events": 137,
+      "amount_micro_usdc": "420708735986873",
+      "after_all_frame_mints": 137
+    },
+    "PSM withdrawal": {
+      "events": 3,
+      "amount_micro_usdc": "3770841800418",
+      "after_all_frame_mints": 0
+    },
+    "Vault deposit": {
+      "events": 94,
+      "amount_micro_usdc": "490825769666261",
+      "after_all_frame_mints": 94
+    },
+    "Vault withdrawal": {
+      "events": 62,
+      "amount_micro_usdc": "52357935898683",
+      "after_all_frame_mints": 62
+    }
+  },
+  "scope": "Selected institution and route; same-transaction co-occurrence, not ultimate use or funding provenance"
+}

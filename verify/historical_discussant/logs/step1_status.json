@@ -1,0 +1,13 @@
+{
+  "issues": [],
+  "split_date": "2025-11-11",
+  "original_vault_dates": 4390,
+  "replay_vault_labels": 4390,
+  "D_definition": "D_v = 1 - [J(V)-J(V without v)] / standalone capacity; not portfolio Dup",
+  "JA_primary": "marginal joint cash contribution / own vault assets; independently reconstructed from positions and cash",
+  "JA_robustness": "pool-wide joint bound / aggregate ten-vault assets",
+  "horizon_definition": "any recorded error or any future initiated request unpaid24 over t+1 through t+h; future minimum marginal joint cash below vault full-sample median",
+  "out_of_sample": "fixed first-300-date cutoff; h-day label purge (h+1 for replay, whose payment status requires another24h); training-only median for lowbound outcome; unseen month FE carried from latest training month",
+  "logit": "drop constant-outcome year-month strata identically in M0 and M1; report excluded rows; no penalized fallback",
+  "inference": "two-way CR1 vault/date, t with 9 df; NW within vault with max(7,h) calendar-day lags; no PSD repair of negative two-way variances"
+}

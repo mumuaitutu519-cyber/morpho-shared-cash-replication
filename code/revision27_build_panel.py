@@ -1,0 +1,12 @@
+"""Replace ratio proxies with integer ERC4626 claims including pending fee shares."""
+from pathlib import Path
+import pandas as pd,numpy as np,json,shutil
+R=Path(__file__).resolve().parents[1];O=R/'reports/revision27';v=pd.read_parquet(R/'reports/revision26/owner_day_panel.parquet');raw=pd.read_parquet(O/'owner_day_candidate.parquet')[['date','owner','opening_shares_raw']];raw.date=pd.to_datetime(raw.date);v.date=pd.to_datetime(v.date);v=v.merge(raw,on=['date','owner'],validate='one_to_one')
+s=pd.read_csv(R/'reports/revision6/withdrawal_capacity.csv',dtype=str).set_index('date');s.index=pd.to_datetime(s.index);v.loc[v.spark,'opening_shares_raw']=v.loc[v.spark,'date'].map(s.treasury_shares.shift()).fillna('0')
+c=pd.read_csv(O/'exact_conversion_states.csv',dtype=str);c.date=pd.to_datetime(c.date)+pd.Timedelta(days=1);v=v.merge(c[['date','assets_numerator','shares_denominator']],on='date',how='left',validate='many_to_one');num=v.assets_numerator.fillna('0').map(int);den=v.shares_denominator.fillna('1').map(int);sh=v.opening_shares_raw.map(int)
+claims=[a*b//d for a,b,d in zip(sh,num,den)];old=v.prior_claim_usdc.copy();v['prior_claim_raw']=[str(x) for x in claims];v.prior_claim_usdc=np.array(claims,dtype=float)/1e6;v.prior_cash_coverage=np.minimum(1,v.prior_cash_benchmark_usdc/v.prior_claim_usdc);before=v.risk_set_incumbent.copy();v.risk_set_incumbent=v.prior_claim_usdc.ge(1)&v.date.ge('2025-01-16');v.sort_values(['date','owner'],inplace=True);v.to_parquet(O/'owner_day_panel.parquet',index=False)
+eth=pd.read_csv(R/'reports/revision26/ethena_daily_exact_claims.csv',dtype=str);check=v[v.owner.eq('0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c')].set_index('date');gaps=[]
+for r in eth.to_dict('records'):gaps.append(int(check.loc[pd.Timestamp(r['date']),'prior_claim_raw'])-int(r['rpc_claim_micro']))
+assert all(x==0 for x in gaps),gaps
+summary={'rows':len(v),'ethena_direct_claim_checks':len(gaps),'ethena_exact_matches':sum(x==0 for x in gaps),'main_threshold_membership_changes':int((before!=v.set_index(v.index).risk_set_incumbent.reindex(before.index)).sum()),'max_claim_correction_usdc':float((old-v.prior_claim_usdc.reindex(old.index)).abs().max()),'method':'Integer source-code conversion: pending fee shares and virtual offsets; no minimum-denomination dust treated as a redeemable claim.'};(O/'claim_conversion_audit.json').write_text(json.dumps(summary,indent=2));print(summary)
+for name in ['daily_conditions.csv','native_yields.csv']:shutil.copy2(R/'reports/revision26'/name,O/name)

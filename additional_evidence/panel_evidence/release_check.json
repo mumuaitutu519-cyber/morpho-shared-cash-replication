@@ -1,0 +1,139 @@
+{
+  "offline_runs": [
+    {
+      "script": "export_panel_inputs.py",
+      "returncode": 0,
+      "stdout": "daily data ready 4390\n",
+      "stderr": ""
+    },
+    {
+      "script": "build_panel_operations.py",
+      "returncode": 0,
+      "stdout": "operations 3949883 {'Supply': 1879251, 'Withdraw': 1521837, 'Borrow': 299769, 'Repay': 234752, 'Liquidation': 14274}\nEVENTS 2995 retained 967\n",
+      "stderr": ""
+    },
+    {
+      "script": "build_borrow_candidates.py",
+      "returncode": 0,
+      "stdout": "same-block ordering membership changes 0 0\ncandidates 2995 retained 967\n",
+      "stderr": ""
+    },
+    {
+      "script": "check_panel_supply_identity.py",
+      "returncode": 0,
+      "stdout": "{'market_days': 11252, 'raw_supply_stock_identity_over_1USDC': 7321, 'max_raw_supply_difference_USDC': 196110.361211, 'after_interest_and_bad_debt_error_micro': 0, 'interest_definition': 'interest implied by supply stock-flow balance, separately reported from observed operations'}\n",
+      "stderr": ""
+    },
+    {
+      "script": "estimate_panel_spillover.py",
+      "returncode": 0,
+      "stdout": "model spec  Obs  eligible  dropped    FE clusters  df_p  rank  within_R2  outcome_mean absorbed  wild_draws\ntask1   1a 4380      4380        0 vault date:438   437    14   0.296284      0.050378                    0\ntask1   1b 4380      4380        0 vault date:438   437    16   0.303859      0.050378                    0\ntask1   1c  480       480        0 vault date:367   366     7   0.000371     -0.000038  OwnFlow           0\ntask1   1d 4374      4380        6 vault date:438   437    14   0.001238      0.000300                    0\n",
+      "stderr": ""
+    },
+    {
+      "script": "estimate_panel_prediction.py",
+      "returncode": 0,
+      "stdout": "25 LPM_lag complete\n25 LPM_no_lag complete\n25 logit done\n10 LPM_lag complete\n10 LPM_no_lag complete\n10 logit done\n",
+      "stderr": ""
+    },
+    {
+      "script": "estimate_cross_state_prediction.py",
+      "returncode": 0,
+      "stdout": "{'eligible_current_states': 2141, 'next_observed_transitions': 1799, 'vaults': 338, 'next_zero_S_states': 40, 'gap_days_min': 28, 'gap_days_max': 182, 'flow_definition': 'Committed UTC-day net inflow from midnight through the frozen current-state block, million USDC', 'outcome_definition': 'Next available positive-assets state; S=0 next states have a defined refusal outcome and are retained as outcomes. Current S=0 states remain excluded.', 'issues': []}\n",
+      "stderr": ""
+    },
+    {
+      "script": "estimate_panel_robustness.py",
+      "returncode": 0,
+      "stdout": "daily robustness complete\ncross robustness complete\n",
+      "stderr": "/private/var/folders/x1/p542b3gx3vq59f2xwqq_m6s40000gn/T/panel_evidence_offline_g8b5iotn/Replication_Package/code/empirical/estimate.py:9: FutureWarning: factorize with argument that is not not a Series, Index, ExtensionArray, or np.ndarray is deprecated and will raise in a future version.\n  def groups(x):return pd.factorize(x,sort=True)[0]\n/private/var/folders/x1/p542b3gx3vq59f2xwqq_m6s40000gn/T/panel_evidence_offline_g8b5iotn/Replication_Package/code/empirical/estimate.py:9: FutureWarning: factorize with argument that is not not a Series, Index, ExtensionArray, or np.ndarray is deprecated and will raise in a future version.\n  def groups(x):return pd.factorize(x,sort=True)[0]\n/private/var/folders/x1/p542b3gx3vq59f2xwqq_m6s40000gn/T/panel_evidence_offline_g8b5iotn/Replication_Package/code/empirical/estimate.py:9: FutureWarning: factorize with argument that is not not a Series, Index, ExtensionArray, or np.ndarray is deprecated and will raise in a future version.\n  def groups(x):return pd.factorize(x,sort=True)[0]\n/private/var/folders/x1/p542b3gx3vq59f2xwqq_m6s40000gn/T/panel_evidence_offline_g8b5iotn/Replication_Package/code/empirical/estimate.py:9: FutureWarning: factorize with argument that is not not a Series, Index, ExtensionArray, or np.ndarray is deprecated and will raise in a future version.\n  def groups(x):return pd.factorize(x,sort=True)[0]\n/private/var/folders/x1/p542b3gx3vq59f2xwqq_m6s40000gn/T/panel_evidence_offline_g8b5iotn/Replication_Package/code/empirical/estimate.py:9: FutureWarning: factorize with argument that is not not a Series, Index, ExtensionArray, or np.ndarray is deprecated and will raise in a future version.\n  def groups(x):return pd.factorize(x,sort=True)[0]\n"
+    },
+    {
+      "script": "estimate_borrow_events.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "format_panel_evidence.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "report_panel_evidence.py",
+      "returncode": 0,
+      "stdout": "report estimates 598 models 68 quoteable values 3131\n",
+      "stderr": ""
+    },
+    {
+      "script": "validate_panel_evidence.py",
+      "returncode": 0,
+      "stdout": "PASS: 4380 unique consecutive vault-day changes; integer flow partitions sum exactly on opening markets.\nPASS: 11263 market closing cash balances equal cumulative observed operation cash flows exactly.\nPASS: Task 1 coefficient, date-cluster SE and calendar-lag DK5 SE match independent explicit-vault-dummy statsmodels estimates.\nPASS: task1 numerical coefficient/SE/t/p identities and inference reference distributions.\nPASS: task2 numerical coefficient/SE/t/p identities and inference reference distributions.\nPASS: task3 numerical coefficient/SE/t/p identities and inference reference distributions.\nPASS: task3_cross numerical coefficient/SE/t/p identities and inference reference distributions.\nPASS: tasks4_5 numerical coefficient/SE/t/p identities and inference reference distributions.\nPASS: All event hashes present, integer threshold and cohort counts verified; four baseline event regressions independently reproduce via within-pair OLS and full-FE cluster corrections.\nPASS: 2204 single-vault flow queries; 50 overlapping vault-days and 43715 committed logs match exactly.\nPASS: Every generic paper-table coefficient, star and t-statistic matches its numerical CSV source.\nPASS: Word/PDF manuscript hashes unchanged.\n",
+      "stderr": ""
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "task1_numeric.csv",
+      "rows": 34,
+      "status": "PASS",
+      "byte_identical": false
+    },
+    {
+      "file": "task2_numeric.csv",
+      "rows": 400,
+      "status": "PASS",
+      "byte_identical": true
+    },
+    {
+      "file": "task3_numeric.csv",
+      "rows": 34,
+      "status": "PASS",
+      "byte_identical": false
+    },
+    {
+      "file": "task3_cross_numeric.csv",
+      "rows": 17,
+      "status": "PASS",
+      "byte_identical": true
+    },
+    {
+      "file": "tasks4_5_numeric.csv",
+      "rows": 113,
+      "status": "PASS",
+      "byte_identical": false
+    },
+    {
+      "file": "task1_models.csv",
+      "rows": 4,
+      "status": "PASS",
+      "byte_identical": true
+    },
+    {
+      "file": "task2_models.csv",
+      "rows": 30,
+      "status": "PASS",
+      "byte_identical": true
+    },
+    {
+      "file": "task3_models.csv",
+      "rows": 6,
+      "status": "PASS",
+      "byte_identical": true
+    },
+    {
+      "file": "task3_cross_models.csv",
+      "rows": 3,
+      "status": "PASS",
+      "byte_identical": true
+    },
+    {
+      "file": "tasks4_5_models.csv",
+      "rows": 25,
+      "status": "PASS",
+      "byte_identical": true
+    }
+  ],
+  "source_manuscripts_unchanged": true
+}

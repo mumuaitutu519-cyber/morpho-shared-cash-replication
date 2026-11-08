@@ -1,0 +1,28 @@
+{
+  "url": "https://mainnet.base.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a",
+        "fromBlock": "0x17ef78f",
+        "toBlock": "0x1807e2e",
+        "topics": [
+          "0xf66f28b40975dbb933913542c7e6a0f50a1d0f20aa74ea6e0efe65ab616323ec"
+        ]
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32614,
+      "message": "eth_getLogs is limited to a 10,000 range"
+    },
+    "id": 1
+  },
+  "sha256": "5385c5666a47310b2570d1f9bcbef8ee0c55b5196447d68c1b2a9a7724fd7f54",
+  "retrieved_utc": "2026-09-07T10:50:05.262371+00:00"
+}

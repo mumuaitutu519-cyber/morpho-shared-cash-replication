@@ -1,0 +1,50 @@
+{
+  "url": "https://portal.sqd.dev/datasets/base-mainnet/finalized-stream",
+  "query": {
+    "type": "evm",
+    "fromBlock": 34483048,
+    "toBlock": 34758680,
+    "includeAllBlocks": false,
+    "fields": {
+      "block": {
+        "number": true,
+        "hash": true,
+        "timestamp": true
+      },
+      "log": {
+        "address": true,
+        "topics": true,
+        "data": true,
+        "transactionHash": true,
+        "logIndex": true
+      }
+    },
+    "logs": [
+      {
+        "address": [
+          "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+        ],
+        "topic0": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+        ],
+        "topic1": [
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ]
+      },
+      {
+        "address": [
+          "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+        ],
+        "topic0": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+        ],
+        "topic2": [
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ]
+      }
+    ]
+  },
+  "status": 200,
+  "sha256": "39403783ed94738ac6e253626dc7769daac39a1340bf21dff1d31a27765529b0",
+  "retrieved_utc": "2026-09-07T10:30:00.954854+00:00"
+}

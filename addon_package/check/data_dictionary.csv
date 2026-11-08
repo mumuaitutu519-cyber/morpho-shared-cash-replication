@@ -1,0 +1,133 @@
+file,column,meaning
+a4_unaffected_panel.csv,chain,"Chain ID: 1=Ethereum, 42161=Arbitrum, 8453=Base"
+a4_unaffected_panel.csv,utc,UTC target hour in ISO format; A3 panel contains W2 plus its prior seven days
+a4_unaffected_panel.csv,block,Observed chain block number; daily data use the closing block
+a4_unaffected_panel.csv,timestamp,"Actual block Unix timestamp, seconds UTC"
+a4_unaffected_panel.csv,vault,"Vault contract address, lowercase hex"
+a4_unaffected_panel.csv,assets,"Aggregate totalAssets (daily/hourly summaries) or vault totalAssets (vault rows), micro-USDC"
+a4_unaffected_panel.csv,capacity,"Standalone vault withdrawal capacity, micro-USDC"
+a4_unaffected_panel.csv,D,Share of this vault standalone capacity that other vaults can exhaust; undefined when standalone capacity is zero
+a4_unaffected_panel.csv,capacity_assets,"Vault standalone withdrawal capacity / totalAssets, fraction"
+a4_unaffected_panel.csv,Shared,Frozen pre-W2 position share in markets held by directly affected vaults
+a4_unaffected_panel.csv,W2,Inside 2025-11-03 through 2025-11-21 inclusive (UTC)
+a4_unaffected_panel.csv,interaction,W2 multiplied by frozen Shared
+affected_collateral_list.csv,chain,"Chain ID: 1=Ethereum, 42161=Arbitrum, 8453=Base"
+affected_collateral_list.csv,scope,main=related tokens including named principal-token derivatives; core_only=xUSD/deUSD/sdeUSD
+affected_collateral_list.csv,market,"Morpho market ID, bytes32 hex"
+affected_collateral_list.csv,collateralToken,Collateral token contract address from market parameters
+affected_collateral_list.csv,symbol,Collateral token contract symbol
+affected_collateral_list.csv,name,Collateral token contract name
+affected_collateral_list.csv,pre_block,Last block before W2 used for affected-vault classification
+affected_collateral_list.csv,in_pre_queue,Market appears in a baseline vault withdrawal queue
+affected_collateral_list.csv,positive_vaults,Number of baseline vaults with a positive position in this market
+base_daily.csv,date,UTC close date (daily data) or UTC call date (error events)
+base_daily.csv,block,Observed chain block number; daily data use the closing block
+base_daily.csv,timestamp,"Actual block Unix timestamp, seconds UTC"
+base_daily.csv,S,"Sum of individual standalone withdrawal capacities, micro-USDC"
+base_daily.csv,J,"Joint cash upper bound over shared markets, micro-USDC"
+base_daily.csv,assets,"Aggregate totalAssets (daily/hourly summaries) or vault totalAssets (vault rows), micro-USDC"
+base_daily.csv,Dup,"(S-J)/S, fraction; undefined if S=0"
+base_daily.csv,JA,"J/assets, fraction"
+base_daily.csv,Util,"Vault-position-weighted market utilization, fraction"
+base_daily.csv,all_pass,All individual vault requests pass standalone-capacity checks at fraction f (25% in base_daily)
+base_daily.csv,excluded,All individual requests pass but aggregate request exceeds J
+base_daily.csv,gap,"max(aggregate request-J,0), micro-USDC"
+base_daily.csv,request,"Sum of f% totalAssets requests rounded down separately by vault, micro-USDC"
+base_daily.csv,Errors,Qualifying strict-equity error events per date in the ten fixed Base sample vaults
+base_daily.csv,Errors_all,Qualifying strict-equity error events per date in the full Base scan
+base_daily.csv,Errors_table11,Error events per date in the ten sample vaults under the original Table11 equity-tolerance rule
+base_daily.csv,weekday,UTC weekday: Monday=0 through Sunday=6
+base_daily.csv,month,UTC year-month label YYYY-MM for calendar effects or Cox strata
+base_daily.csv,W1,Inside 2025-10-09 through 2025-10-17 inclusive (UTC)
+base_daily.csv,W2,Inside 2025-11-03 through 2025-11-21 inclusive (UTC)
+error_calls_windows.csv,chain,"Chain ID: 1=Ethereum, 42161=Arbitrum, 8453=Base"
+error_calls_windows.csv,vault,"Vault contract address, lowercase hex"
+error_calls_windows.csv,holder,"Shareholder address associated with the failed request, lowercase hex"
+error_calls_windows.csv,request_micro,"Aggregate run request (refill tables) or failed call request (error events), micro-USDC"
+error_calls_windows.csv,block,Observed chain block number; daily data use the closing block
+error_calls_windows.csv,timestamp,"Actual block Unix timestamp, seconds UTC"
+error_calls_windows.csv,tx,Source operation or failed-call transaction hash
+error_calls_windows.csv,date,UTC close date (daily data) or UTC call date (error events)
+error_calls_windows.csv,resolved,A later committed withdrawal in the same vault by the same holder was observed by 2026-03-30 UTC; does not imply full repayment of failed amount
+error_calls_windows.csv,wait_hours,Elapsed hours until the next qualifying committed withdrawal; blank if unresolved
+error_calls_windows.csv,next_success_tx,Transaction hash of next qualifying withdrawal; blank if unresolved
+error_calls_windows.csv,W1,Inside 2025-10-09 through 2025-10-17 inclusive (UTC)
+error_calls_windows.csv,W2,Inside 2025-11-03 through 2025-11-21 inclusive (UTC)
+error_calls_windows.csv,W1_control,Inside prior 30 days 2025-09-09 through 2025-10-08 inclusive
+error_calls_windows.csv,W2_control,Inside prior 30 days 2025-10-04 through 2025-11-02 excluding W1 (21 retained dates)
+error_calls_windows.csv,request_USDC,Failed-call request amount in USDC
+error_calls_windows.csv,next_success_block,Block number of next qualifying withdrawal; blank if unresolved
+error_calls_windows.csv,next_success_timestamp,Next withdrawal Unix timestamp recovered from original event time plus wait; blank if unresolved
+hourly_eth_arb_base.csv,chain,"Chain ID: 1=Ethereum, 42161=Arbitrum, 8453=Base"
+hourly_eth_arb_base.csv,utc,UTC target hour in ISO format; A3 panel contains W2 plus its prior seven days
+hourly_eth_arb_base.csv,block,Observed chain block number; daily data use the closing block
+hourly_eth_arb_base.csv,target,Target UTC hour as Unix seconds
+hourly_eth_arb_base.csv,timestamp,"Actual block Unix timestamp, seconds UTC"
+hourly_eth_arb_base.csv,distance_seconds,Absolute actual block timestamp distance from target UTC hour
+hourly_eth_arb_base.csv,Vaults,Number of positive-asset native-USDC V1 vaults (Base: fixed ten-vault sample)
+hourly_eth_arb_base.csv,assets,"Aggregate totalAssets (daily/hourly summaries) or vault totalAssets (vault rows), micro-USDC"
+hourly_eth_arb_base.csv,S,"Sum of individual standalone withdrawal capacities, micro-USDC"
+hourly_eth_arb_base.csv,J,"Joint cash upper bound over shared markets, micro-USDC"
+hourly_eth_arb_base.csv,Dup,"(S-J)/S, fraction; undefined if S=0"
+hourly_eth_arb_base.csv,JA,"J/assets, fraction"
+refill_daily.csv,date,UTC close date (daily data) or UTC call date (error events)
+refill_daily.csv,f,"Per-vault requested percentage of closing totalAssets: 5,10,25"
+refill_daily.csv,order,large_first or small_first: fixed closing asset rank; ties break by vault address
+refill_daily.csv,tau,Elapsed hours until all requests are paid; 168 hours if right-censored
+refill_daily.csv,censored,Request remains incomplete after the full 168-hour observation horizon
+refill_daily.csv,paid_fraction,Total paid / aggregate requested at completion or 168-hour censoring
+refill_daily.csv,initial_paid_micro,"Aggregate paid at starting close before subsequent operations, micro-USDC"
+refill_daily.csv,request_micro,"Aggregate run request (refill tables) or failed call request (error events), micro-USDC"
+refill_daily.csv,supply_inflow_micro,"Recorded external supply cash through completion/censoring, micro-USDC; excludes sample-owned actions"
+refill_daily.csv,repay_inflow_micro,"Recorded external ordinary repayment cash through completion/censoring, micro-USDC"
+refill_daily.csv,liquidation_inflow_micro,"Recorded external liquidation repayment cash through completion/censoring, micro-USDC"
+refill_daily.csv,clipped_outflow_micro,"Recorded external borrowing/withdrawal exceeding available replay cash, summed micro-USDC"
+refill_daily.csv,horizon_complete,All 168 future hours have original operation coverage
+refill_daily.csv,valid_result,Result has complete horizon coverage or already completed payment
+refill_order_check.csv,date,UTC close date (daily data) or UTC call date (error events)
+refill_order_check.csv,f,"Per-vault requested percentage of closing totalAssets: 5,10,25"
+refill_order_check.csv,order,large_first or small_first: fixed closing asset rank; ties break by vault address
+refill_order_check.csv,tau,Elapsed hours until all requests are paid; 168 hours if right-censored
+refill_order_check.csv,censored,Request remains incomplete after the full 168-hour observation horizon
+refill_order_check.csv,paid_fraction,Total paid / aggregate requested at completion or 168-hour censoring
+refill_order_check.csv,initial_paid_micro,"Aggregate paid at starting close before subsequent operations, micro-USDC"
+refill_order_check.csv,request_micro,"Aggregate run request (refill tables) or failed call request (error events), micro-USDC"
+refill_order_check.csv,supply_inflow_micro,"Recorded external supply cash through completion/censoring, micro-USDC; excludes sample-owned actions"
+refill_order_check.csv,repay_inflow_micro,"Recorded external ordinary repayment cash through completion/censoring, micro-USDC"
+refill_order_check.csv,liquidation_inflow_micro,"Recorded external liquidation repayment cash through completion/censoring, micro-USDC"
+refill_order_check.csv,clipped_outflow_micro,"Recorded external borrowing/withdrawal exceeding available replay cash, summed micro-USDC"
+refill_order_check.csv,horizon_complete,All 168 future hours have original operation coverage
+refill_order_check.csv,valid_result,Result has complete horizon coverage or already completed payment
+refill_order_check.csv,all_pass,All individual vault requests pass standalone-capacity checks at fraction f (25% in base_daily)
+refill_order_check.csv,excluded,All individual requests pass but aggregate request exceeds J
+refill_order_check.csv,request,"Sum of f% totalAssets requests rounded down separately by vault, micro-USDC"
+refill_order_check.csv,J,"Joint cash upper bound over shared markets, micro-USDC"
+refill_order_check.csv,gap,"max(aggregate request-J,0), micro-USDC"
+refill_order_check.csv,reference_zero,all_pass and aggregate requested <= J
+refill_order_check.csv,tau_zero,Actual fixed-order replay pays every request at its initial close
+refill_order_check.csv,mismatch,reference_zero differs from tau_zero under the stated order
+refill_order_check.csv,max_flow_paid_micro,"Independent archived integer maximum-flow allocation audit, micro-USDC; blank if not audited"
+refill_order_check.csv,allocation_fully_feasible,Archived maximum-flow audit can meet aggregate request; blank if not audited
+refill_order_check.csv,queue_order_feasible,Archived search finds some whole-vault priority order respecting each queue; blank if not audited/not applicable
+refill_order_check.csv,feasible_queue_order,Archived feasible sequence of vault addresses; blank if not found/not applicable
+refill_order_check.csv,aggregate_bound_not_sufficient,Individual passes plus request<=J still fail unrestricted allocation; blank if not audited
+replay_example_ledger.csv,block,Observed chain block number; daily data use the closing block
+replay_example_ledger.csv,log_index,Within-block operation log index; sort after block for exact recorded order
+replay_example_ledger.csv,timestamp,"Actual block Unix timestamp, seconds UTC"
+replay_example_ledger.csv,tx,Source operation or failed-call transaction hash
+replay_example_ledger.csv,market,"Morpho market ID, bytes32 hex"
+replay_example_ledger.csv,kind,"Supply, Repay, Liquidation, Borrow, or Withdraw"
+replay_example_ledger.csv,owner,Owner of the affected market position; sample vaults own requester operations
+replay_example_ledger.csv,assets_micro,"Recorded operation cash amount, micro-USDC; liquidation amount is cash repayment, not bad debt"
+replay_example_ledger.csv,sample_own_operation,1 if owner is one of the ten requester vaults; these operations are skipped
+replay_example_market_cash.csv,market,"Morpho market ID, bytes32 hex"
+replay_example_market_cash.csv,cash,"Reconciled starting cash in the specified market, micro-USDC"
+replay_example_positions.csv,vault,"Vault contract address, lowercase hex"
+replay_example_positions.csv,market,"Morpho market ID, bytes32 hex"
+replay_example_positions.csv,rank,Zero-based fixed withdrawal-queue rank within a vault
+replay_example_positions.csv,position,"Interest-accrued vault claim in the specified market at starting close, micro-USDC"
+replay_example_vaults.csv,date,UTC close date (daily data) or UTC call date (error events)
+replay_example_vaults.csv,block,Observed chain block number; daily data use the closing block
+replay_example_vaults.csv,timestamp,"Actual block Unix timestamp, seconds UTC"
+replay_example_vaults.csv,vault,"Vault contract address, lowercase hex"
+replay_example_vaults.csv,assets,"Aggregate totalAssets (daily/hourly summaries) or vault totalAssets (vault rows), micro-USDC"

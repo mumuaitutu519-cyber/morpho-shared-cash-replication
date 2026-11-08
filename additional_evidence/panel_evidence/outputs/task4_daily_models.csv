@@ -1,0 +1,9 @@
+model,spec,Obs,FE,clusters,df_p,R2,within_R2,outcome_mean,outcome
+task4_duplication,asset_weighted,436,month + weekday,none,412,0.432628735272829,0.0183140607115784,0.973835926887569,weighted_duplication
+task4_duplication,exclude_Spark,439,month + weekday,none,415,0.885414754363864,0.121218049894151,0.375067854129093,duplication
+task4_duplication,HAC14_no_calendar_FE,439,none,none,435,0.102918249215124,,0.583691891386779,duplication
+task4_duplication,lagged_outcome,439,month + weekday,none,414,0.902177486698491,0.642286196307396,0.583691891386779,duplication
+task4_J_assets,asset_weighted,436,month + weekday,none,411,0.433331298124504,0.0195296599423357,0.973835926887569,weighted_duplication
+task4_J_assets,exclude_Spark,439,month + weekday,none,414,0.901984469248593,0.12476883057163,0.457803411809332,J_assets
+task4_J_assets,HAC14_no_calendar_FE,439,none,none,434,0.538378922289427,,0.154335265304471,J_assets
+task4_J_assets,lagged_outcome,439,month + weekday,none,413,0.782911835794563,0.569298710454473,0.154335265304471,J_assets

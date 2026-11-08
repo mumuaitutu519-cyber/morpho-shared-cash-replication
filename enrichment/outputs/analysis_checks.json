@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "cross_chain": [
+    {
+      "chain": "Base",
+      "block": 51953448,
+      "utc": "2026-09-29 15:37:23",
+      "vaults": 162,
+      "positive_block_vaults": 162,
+      "queue_markets": 99,
+      "positive_markets": 79,
+      "assets_usdc": 1006330620.530145,
+      "S_usdc": 606236540.891735,
+      "J_usdc": 181570655.786169,
+      "duplicate_usdc": 424665885.105566,
+      "duplication_pct": 70.04953618944015,
+      "asset_reconciliation_max_micro": 0
+    },
+    {
+      "chain": "Ethereum",
+      "block": 26084069,
+      "utc": "2026-09-29 15:37:59",
+      "vaults": 146,
+      "positive_block_vaults": 146,
+      "queue_markets": 208,
+      "positive_markets": 121,
+      "assets_usdc": 811204636.67353,
+      "S_usdc": 158477855.060161,
+      "J_usdc": 77166118.199223,
+      "duplicate_usdc": 81311736.860938,
+      "duplication_pct": 51.30794888034712,
+      "asset_reconciliation_max_micro": 0
+    }
+  ],
+  "events": [
+    {
+      "group": "All eligible peers",
+      "owner_events": 495,
+      "transactions": 93,
+      "owners": 38,
+      "material_gains": 17,
+      "full_request_switches": 1,
+      "median_gain_usdc": 0.010522,
+      "clean_block_gains": 12
+    },
+    {
+      "group": "Initially cash constrained",
+      "owner_events": 17,
+      "transactions": 17,
+      "owners": 1,
+      "material_gains": 17,
+      "full_request_switches": 1,
+      "median_gain_usdc": 1339230.192851,
+      "clean_block_gains": 12
+    },
+    {
+      "group": "Initially fully covered",
+      "owner_events": 478,
+      "transactions": 93,
+      "owners": 38,
+      "material_gains": 0,
+      "full_request_switches": 0,
+      "median_gain_usdc": 0.0094795,
+      "clean_block_gains": 0
+    }
+  ],
+  "historical_days": 439,
+  "figures": 3,
+  "raw_decoded_hashes": {
+    "raw/ethereum_all_chain/ethereum_all_current_decoded.json": "03238f712fcf675ccd3a8feaba0e9ca6d5085f1f784b4b0f1869cf8947f0e7aa",
+    "raw/base_all_chain/base_all_current_decoded.json": "071d61264ce4bc2b624300d25e42b6a4d28254c057e29ed8a0b992e15d20870a"
+  }
+}

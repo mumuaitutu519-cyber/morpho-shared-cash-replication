@@ -1,0 +1,461 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": [
+    {
+      "check": "F raw event-block MDup defined before complete-horizon filter",
+      "actual": 763,
+      "expected": 763,
+      "passed": true
+    },
+    {
+      "check": "F MDup complete regression events",
+      "actual": 651,
+      "expected": 651,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: outputs/empirical/regressions.csv",
+      "actual": "32df5be028ebe906dc03a4510711ca1ccee927051b0ca7cd95feacec9726c05f",
+      "expected": "32df5be028ebe906dc03a4510711ca1ccee927051b0ca7cd95feacec9726c05f",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: outputs/empirical/models.json",
+      "actual": "ff87309ed41d81af5ab1d1f5597ee88eca1389c1ae9cd435738aeee7dc409029",
+      "expected": "ff87309ed41d81af5ab1d1f5597ee88eca1389c1ae9cd435738aeee7dc409029",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/outputs/regressions.csv",
+      "actual": "47faeec46dcd08218574990b2becf72cb386d4e6e704770a165a929b7f190221",
+      "expected": "47faeec46dcd08218574990b2becf72cb386d4e6e704770a165a929b7f190221",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/outputs/model_metadata.csv",
+      "actual": "120fcb5060d07eb55b481e5cdedf343dfb27656e8d4212eb3a367d34ba5cb303",
+      "expected": "120fcb5060d07eb55b481e5cdedf343dfb27656e8d4212eb3a367d34ba5cb303",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/cross_chain/outputs/cross_chain_regressions.csv",
+      "actual": "90647f49532bb9fba273a88c5d9a1243af025e3c34c06e677c71bf5891c27ca3",
+      "expected": "90647f49532bb9fba273a88c5d9a1243af025e3c34c06e677c71bf5891c27ca3",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/cross_chain/outputs/cross_chain_models.csv",
+      "actual": "a659869d8f19d24ecc31445c6a7166726a308aaf91a92296711f2874619a21c8",
+      "expected": "a659869d8f19d24ecc31445c6a7166726a308aaf91a92296711f2874619a21c8",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/panel_evidence/outputs/task1_numeric.csv",
+      "actual": "c0978db4866b8e83b8871b5c4f72f72a69974b4f95fc0999c649aa72c8a0d493",
+      "expected": "c0978db4866b8e83b8871b5c4f72f72a69974b4f95fc0999c649aa72c8a0d493",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/panel_evidence/outputs/task1_models.csv",
+      "actual": "238125ca3f6fc634c6d0f92c68f5512478f3be810c7b5622248d91399013612f",
+      "expected": "238125ca3f6fc634c6d0f92c68f5512478f3be810c7b5622248d91399013612f",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/panel_evidence/outputs/task2_numeric.csv",
+      "actual": "68bc799644a44b47fc53b58b6226f42dd4db8781d7b6b9fd66c515e7eb1ec8f9",
+      "expected": "68bc799644a44b47fc53b58b6226f42dd4db8781d7b6b9fd66c515e7eb1ec8f9",
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged: additional_evidence/panel_evidence/outputs/task2_models.csv",
+      "actual": "388013cf8d391c845f3393ba48fcba6f1b24bd9fece1ad60a7df35c1ace41400",
+      "expected": "388013cf8d391c845f3393ba48fcba6f1b24bd9fece1ad60a7df35c1ace41400",
+      "passed": true
+    },
+    {
+      "check": "Sample count A",
+      "actual": 439,
+      "expected": 439,
+      "passed": true
+    },
+    {
+      "check": "Sample count B",
+      "actual": 4387,
+      "expected": 4387,
+      "passed": true
+    },
+    {
+      "check": "Sample count C",
+      "actual": 3167,
+      "expected": 3167,
+      "passed": true
+    },
+    {
+      "check": "Sample count D",
+      "actual": 2141,
+      "expected": 2141,
+      "passed": true
+    },
+    {
+      "check": "Sample count E",
+      "actual": 4380,
+      "expected": 4380,
+      "passed": true
+    },
+    {
+      "check": "Sample count F",
+      "actual": 834,
+      "expected": 834,
+      "passed": true
+    },
+    {
+      "check": "All 30 requested variables",
+      "actual": 30,
+      "expected": 30,
+      "passed": true
+    },
+    {
+      "check": "Frozen regression metadata B",
+      "actual": 4387,
+      "expected": 4387,
+      "passed": true
+    },
+    {
+      "check": "Frozen regression metadata D",
+      "actual": 2141,
+      "expected": 2141,
+      "passed": true
+    },
+    {
+      "check": "Frozen regression metadata E",
+      "actual": 4380,
+      "expected": 4380,
+      "passed": true
+    },
+    {
+      "check": "A exact previous-day HHI",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "A exact previous-day Size",
+      "actual": 3.552713678800501e-15,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "A exact previous-day Util",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "A exact previous-day Flow",
+      "actual": 9.8879238130678e-17,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "Descriptive script registered exactly once in run-all",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "All previously reported unrounded columns and row order unchanged",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: outputs/empirical/regressions.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: outputs/empirical/models.json",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/outputs/regressions.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/outputs/model_metadata.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/cross_chain/outputs/cross_chain_regressions.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/cross_chain/outputs/cross_chain_models.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/panel_evidence/outputs/task1_numeric.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/panel_evidence/outputs/task1_models.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/panel_evidence/outputs/task2_numeric.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Regression unchanged since pre-percentile baseline: additional_evidence/panel_evidence/outputs/task2_models.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_A.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_B.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_C.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_F_MDup.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_F.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_D.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Unchanged estimation sample sample_keys_E.csv",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles A Dup",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles A JA",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles A HHI",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles A Size",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles A Util",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles A Flow",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles B D",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles B Shared",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles B Size",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles B Markets",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles C MDup",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles C Vaults",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles C Util",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles C Cash",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles C Top",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles D D",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles D Shared",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles D Markets",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles D Size",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles D Util",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles D Top",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles E \u0394S",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles E Own",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles E Peer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles E Outside",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles E Borrow",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles E Shared",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles F MDup",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles F J",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Ordered quantiles F Vaults",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "sample_sd_ddof": 1,
+  "statistics_before_FE_absorption": true,
+  "raw_states_read": false,
+  "regressions_run": 0,
+  "regression_outputs_unchanged": true
+}

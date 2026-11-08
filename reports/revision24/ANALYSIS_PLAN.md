@@ -1,0 +1,10 @@
+# R24 fixed-cohort measurement plan
+
+Frozen before retrieval of new withdrawal outcomes (2026-09-07).
+
+1. Retain the 94 vault deposits in 93 transactions and their original first-departure feasible sets. For each event independently, request withdrawal of exactly its deposited USDC amount, with the historical treasury proxy as caller, receiver and owner. No transaction will be signed or broadcast. Obtain the nearest supported post-transaction state; block-end states must be explicitly distinguished from transaction-position states. Archive requests, responses and hashes, and audit transaction position/intervening operations. Test provider semantics before treating a transaction-index option as supported.
+2. Use the documented public Tenderly Base endpoint for read-only historical queries. Cache every response. Stop on HTTP 401/403/429 or an access-control error; no credentials, paid service or access bypass. Preserve unavailable calls separately from contract reverts. Previously stopped Base/PublicNode/Blockscout endpoints remain stopped.
+3. For all deposits, zero marginal lower bounds, positive interval widths and point identification, report counts, deposited amounts and value shares. Optimize each group's aggregate funding objective over the original feasible sets; preserve integer endpoint allocations and independent LP checks. Point and positive-width groups partition the sample; zero-lower bounds overlap them.
+4. Retain the original eight dates selected by gross withdrawals exceeding one quarter of the prior closing claim. Add that claim and gross/net percentages. Do not select on net outcomes.
+5. Retain the same-transaction first-departure estimand. Explain atomic execution and its exclusion of delayed uses, returns and ending source composition. No window extension or new regression is planned.
+6. Keep historical direct states, verified fee events and unclassified ledger changes separate. Present core methods and evidence together and preserve other exploratory analyses in a labelled archive. Report author-side replay separately from independent recollection.

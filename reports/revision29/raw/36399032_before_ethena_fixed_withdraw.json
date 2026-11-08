@@ -1,0 +1,26 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "from": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "to": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a",
+        "data": "0xb460af940000000000000000000000000000000000000000000000000000378afe8db622000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "gas": "0x989680"
+      },
+      "0x22b67b7"
+    ]
+  },
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "error": {
+      "code": 3,
+      "message": "execution reverted",
+      "data": "0x4323a555"
+    }
+  },
+  "url": "https://base.drpc.org"
+}

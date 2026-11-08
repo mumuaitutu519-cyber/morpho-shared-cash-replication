@@ -1,0 +1,7 @@
+# Verification scope
+
+The authority is the 2026-11-01 22:00 filename version recorded in MANUSCRIPT_AUTHORITY.json. The current extraction contains 22 physical table blocks and 16 numbered tables; the Table 1 definition block has no estimated numeric cells and is not counted in the numeric denominator. Row labels, model numbers and FE text are outside that denominator.
+
+`code/verify_current_tables.py` compares every mapped numeric display cell with the fixed source archive, rounded to the current manuscript precision. Composite cells retain separate numeric-token counts; significance stars are checked too. The mapping is explicit in `data/table_coordinate_map.json`, including both row labels. Table 1 is compared against `desc/desc_stats.csv`, previously computed from six frozen regression samples. Other tables are compared against the earlier manuscript table extracts preserved by the discussant package. Its original independently calculated checks and their exact scope remain under `verify/historical_discussant/`; those historical checks do not cover every ancillary R² cell independently.
+
+Thus the 305 result establishes agreement between the latest manuscript displays and the archived replication material. It is not a fresh estimation, a fresh independent cell recalculation, proof of all historical code paths, or a verification of all narrative/figure claims. No estimates, sample definitions or manuscript text were changed. Historical validation receipts retain their original scope and are not relabeled as task-305 executions.

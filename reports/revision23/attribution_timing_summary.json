@@ -1,0 +1,120 @@
+{
+  "cohort_deposits": 94,
+  "deposit_micro": "490825769666261",
+  "joint_funding_lower_micro": "471787997608733",
+  "joint_funding_upper_micro": "489890981523934",
+  "excess_attribution_lower_micro": "934788142327",
+  "excess_attribution_upper_micro": "19037772057528",
+  "joint_width_micro": "18102983915201",
+  "zero_marginal_lower_deposits": 35,
+  "timing_counts": {
+    "both_below": 62,
+    "same_day_only": 10,
+    "prior_only": 1,
+    "neither_below": 21
+  },
+  "timing_agreement_deposits": 83,
+  "timing_disagreement_deposits": 11,
+  "timing_disagreement_pct": 11.702127659574469,
+  "positive_timing_counts": {
+    "both_below": 35,
+    "same_day_only": 8,
+    "prior_only": 1,
+    "neither_below": 15
+  },
+  "joint_groups": [
+    {
+      "group": "both_below",
+      "deposits": 62,
+      "transactions": 62,
+      "positive_marginal_lower_deposits": 35,
+      "deposit_micro": "336855988106305",
+      "sum_marginal_lower_micro": "325537702375038",
+      "sum_marginal_upper_micro": "336855988106305",
+      "joint_lower_micro": "325537702375038",
+      "joint_upper_micro": "336855988106305",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    },
+    {
+      "group": "prior_only",
+      "deposits": 1,
+      "transactions": 1,
+      "positive_marginal_lower_deposits": 1,
+      "deposit_micro": "1076917175207",
+      "sum_marginal_lower_micro": "1076917175207",
+      "sum_marginal_upper_micro": "1076917175207",
+      "joint_lower_micro": "1076917175207",
+      "joint_upper_micro": "1076917175207",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    },
+    {
+      "group": "same_day_only",
+      "deposits": 10,
+      "transactions": 10,
+      "positive_marginal_lower_deposits": 8,
+      "deposit_micro": "20363775818989",
+      "sum_marginal_lower_micro": "18022799073503",
+      "sum_marginal_upper_micro": "20363775818989",
+      "joint_lower_micro": "18022799073503",
+      "joint_upper_micro": "20363775818989",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    },
+    {
+      "group": "neither_below",
+      "deposits": 21,
+      "transactions": 20,
+      "positive_marginal_lower_deposits": 15,
+      "deposit_micro": "132529088565760",
+      "sum_marginal_lower_micro": "127150578984985",
+      "sum_marginal_upper_micro": "131594300423433",
+      "joint_lower_micro": "127150578984985",
+      "joint_upper_micro": "131594300423433",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    },
+    {
+      "group": "all_vault",
+      "deposits": 94,
+      "transactions": 93,
+      "positive_marginal_lower_deposits": 59,
+      "deposit_micro": "490825769666261",
+      "sum_marginal_lower_micro": "471787997608733",
+      "sum_marginal_upper_micro": "489890981523934",
+      "joint_lower_micro": "471787997608733",
+      "joint_upper_micro": "489890981523934",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    },
+    {
+      "group": "prior_positive_below",
+      "deposits": 36,
+      "transactions": 36,
+      "positive_marginal_lower_deposits": 36,
+      "deposit_micro": "328447452308692",
+      "sum_marginal_lower_micro": "326614619550245",
+      "sum_marginal_upper_micro": "328447452308692",
+      "joint_lower_micro": "326614619550245",
+      "joint_upper_micro": "328447452308692",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    },
+    {
+      "group": "same_day_positive_below",
+      "deposits": 43,
+      "transactions": 43,
+      "positive_marginal_lower_deposits": 43,
+      "deposit_micro": "346206082552783",
+      "sum_marginal_lower_micro": "343560501448541",
+      "sum_marginal_upper_micro": "346206082552783",
+      "joint_lower_micro": "343560501448541",
+      "joint_upper_micro": "346206082552783",
+      "joint_lower_minus_marginal_micro": "0",
+      "marginal_upper_minus_joint_micro": "0"
+    }
+  ],
+  "lp_max_error_usdc": 1.862645149230957e-09,
+  "interpretation": "Joint endpoints over the same per-transaction first-departure feasible sets. Temporal agreement is not entry-time capacity. Excess attribution is bounded, not point-observed."
+}

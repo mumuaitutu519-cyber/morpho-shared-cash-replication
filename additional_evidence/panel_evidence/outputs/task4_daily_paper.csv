@@ -1,0 +1,24 @@
+row,task4_duplication / asset_weighted,task4_duplication / exclude_Spark,task4_duplication / HAC14_no_calendar_FE,task4_duplication / lagged_outcome,task4_J_assets / asset_weighted,task4_J_assets / exclude_Spark,task4_J_assets / HAC14_no_calendar_FE,task4_J_assets / lagged_outcome
+L_cash_hhi,0.051589,-0.097984,-0.196832***,-0.023239,0.056573,0.090504,-0.073174*,-0.053181***
+L_cash_hhi t,(1.32),(-1.50),(-2.74),(-0.95),(1.47),(0.98),(-1.83),(-2.70)
+L_log_assets,-0.019743,0.192440***,0.051464**,0.012826,-0.019973,-0.218418***,0.016776**,-0.007605
+L_log_assets t,(-0.40),(4.37),(2.30),(1.16),(-0.41),(-4.03),(2.00),(-0.59)
+L_utilization10,0.014938**,24.800491,0.011070,-0.016940**,0.014384**,-34.637519*,-0.112017***,0.032051
+L_utilization10 t,(2.09),(1.50),(0.54),(-2.33),(1.98),(-1.82),(-7.08),(1.43)
+Date FE,No,No,No,No,No,No,No,No
+Year-month FE,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+Weekday FE,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+Chain-by-state FE,No,No,No,No,No,No,No,No
+Market FE,No,No,No,No,No,No,No,No
+Chain FE,No,No,No,No,No,No,No,No
+Event-pair FE,No,No,No,No,No,No,No,No
+Vault FE,No,No,No,No,No,No,No,No
+Obs.,436,439,439,439,436,439,439,439
+Clusters,none,none,none,none,none,none,none,none
+Within R-squared,0.0183140607115784,0.121218049894151,,0.642286196307396,0.0195296599423357,0.12476883057163,,0.569298710454473
+R-squared,0.432628735272829,0.885414754363864,0.102918249215124,0.902177486698491,0.433331298124504,0.901984469248593,0.538378922289427,0.782911835794563
+Outcome mean,0.973835926887569,0.375067854129093,0.583691891386779,0.583691891386779,0.973835926887569,0.457803411809332,0.154335265304471,0.154335265304471
+lag_y,,,,0.877078***,,,,0.963719***
+lag_y t,,,,(17.98),,,,(6.92)
+L_spark_flow_share,,,,,-0.059021,0.154123***,-0.057698,0.063567
+L_spark_flow_share t,,,,,(-1.09),(3.83),(-0.84),(1.49)

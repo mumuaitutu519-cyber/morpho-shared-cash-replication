@@ -1,0 +1,31 @@
+{
+  "url": "https://mainnet.base.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a",
+        "fromBlock": "0x2150eff",
+        "toBlock": "0x215360e",
+        "topics": [
+          [
+            "0xf66f28b40975dbb933913542c7e6a0f50a1d0f20aa74ea6e0efe65ab616323ec",
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+          ]
+        ]
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32011,
+      "message": "no backend is currently healthy to serve traffic"
+    },
+    "id": 1
+  },
+  "sha256": "693815f19238fa30cd3c50bc238023ff99eeadd607886cdf5b22c645156dec66",
+  "retrieved_utc": "2026-09-07T10:58:22.701805+00:00"
+}

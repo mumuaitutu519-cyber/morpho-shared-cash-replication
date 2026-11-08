@@ -1,0 +1,2 @@
+# Decision
+The submitted main manuscript and its complete supplement supply the substantive content. Ryu supplies the visual system. Source estimates remain unchanged, with the specified coefficient display precision. The public-liquidity observations confirmed by the user are decoded from archived responses and presented as a separate dated snapshot series in Section S6 and Table S14. Source observations, missing fields, and estimation-file availability retain distinct statuses. Only computations completed by the packaged runner receive a reproduction status.

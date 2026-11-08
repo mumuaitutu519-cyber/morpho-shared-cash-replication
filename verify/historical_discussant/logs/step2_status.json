@@ -1,0 +1,22 @@
+{
+  "threshold": "borrow transaction > 10% preceding-block idle cash; previous qualifying-borrow cooldown 24h",
+  "isolation": "no other qualifying borrow in same market within +/-168h; threshold borrows need not survive cooldown",
+  "censoring": "drop post-event observations at/after next qualifying borrow; preserve pre/event states to reproduce current manuscript",
+  "same_timestamp_event_boundaries": 2,
+  "event_baseline": "m24 omitted; outcome changes from pre-event block; event fixed effects",
+  "col3": "horizon x pre-event vault count centered across complete events, with main horizon effects",
+  "bootstrap": "null-imposed restricted wild cluster bootstrap-t; market Rademacher signs; 999 draws; seed 20261018; p=(1+exceedances)/1000",
+  "cluster_counts": {
+    "historical_markets": 33,
+    "markets_with_qualifying_borrows": 32,
+    "main_Table8_markets": 30
+  },
+  "isolated_events": 80,
+  "following_counts": {
+    "24": 386,
+    "72": 547,
+    "168": 668
+  },
+  "postborrow_flows": "million USDC, after event block through observed horizon block; same 834-event censored sample as Panel B column2; pre/event cumulative flows zero by definition",
+  "boundary": "isolation is conditional on ledger coverage; no unobserved boundary periods filled with zero"
+}

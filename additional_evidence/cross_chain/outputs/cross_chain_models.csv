@@ -1,0 +1,5 @@
+model,spec,Obs,vaults,clusters,cluster_unit,FE,R2,within_R2,df_p,design_rank,singleton_vaults,FE_components
+cross_chain_exposure,a_chain_cluster,338,338,4,chain,chain,0.58949994090843427,,3,9,,
+cross_chain_exposure,a_HC1,338,338,,HC1 heteroskedasticity robust,chain,0.58949994090843427,,329,9,,
+cross_chain_exposure,b_chain_state_FE,2141,369,369,chain+vault address,chain_state,,0.70613908782658008,368,33,34,
+cross_chain_exposure,c_vault_chain_state_FE,2141,369,369,chain+vault address,entity + chain_state,,0.4061588741325266,368,398,34,4

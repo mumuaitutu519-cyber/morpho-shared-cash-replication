@@ -1,0 +1,31 @@
+panel,variable,source_column,units,time
+A,Dup,duplication,share,as entered in regression
+A,JA,J_assets,share,as entered in regression
+A,HHI,L_cash_hhi,share,previous day (stored L_)
+A,Size,L_log_assets,log USDC,previous day (stored L_)
+A,Util,L_utilization10,per 10 pp,previous day (stored L_)
+A,Flow,L_spark_flow_share,share,previous day (stored L_)
+B,D,D,share,as entered in regression
+B,Shared,shared_exposure,share,as entered in regression
+B,Size,log_assets,log USDC,as entered in regression
+B,Markets,active_markets,count,as entered in regression
+C,MDup,duplication,share,as entered in regression
+C,Vaults,vault_count,count,as entered in regression
+C,Util,utilization10,per 10 pp,as entered in regression
+C,Cash,log_cash,log USDC,as entered in regression
+C,Top,largest_position_supply,share,as entered in regression
+D,D,D,share,as entered in regression
+D,Shared,shared_market_share,share,as entered in regression
+D,Markets,active_markets,count,as entered in regression
+D,Size,log_assets,log USDC,as entered in regression
+D,Util,utilization10,per 10 pp,as entered in regression
+D,Top,max_market_share,share,as entered in regression
+E,ΔS,dW,million USDC,as entered in regression
+E,Own,OwnFlow,million USDC,as entered in regression
+E,Peer,OtherVaultFlow,million USDC,as entered in regression
+E,Outside,OutsideFlow,million USDC,as entered in regression
+E,Borrow,BorrowFlow,million USDC,as entered in regression
+E,Shared,ExposureShare,share,as entered in regression
+F,MDup,market_duplication,share,event block level
+F,J,J_level_million,million USDC,event block level
+F,Vaults,vault_count,count,preceding block count

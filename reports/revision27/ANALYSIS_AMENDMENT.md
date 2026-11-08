@@ -1,0 +1,4 @@
+# Definition correction before R27 re-estimation
+The R26 assets/recorded-shares claim proxy omits pending performance fee dilution, virtual offsets and native integer rounding. R27 will reconstruct the contract conversion from direct historical state and exact owner shares. This correction is motivated by the contract source and direct Ethena claims, not regression p values. Retain the same prespecified models, rates, lag structure, 1-USDC main cutoff and >0/100 sensitivities. Compare sample membership before fitting; dust below one native micro-USDC is zero converted claim, not a positive eligible balance. Retain R26 results as the original proxy-based benchmark.
+
+No new threshold is selected from results. The original 94 source-cohort execution outcomes and direct Spark claim/capacity remain unchanged. Direct Spark claims must match reconstruction on all320dates; Ethena claims must match all100querydates before estimation is admitted.

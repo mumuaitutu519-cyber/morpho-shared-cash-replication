@@ -1,0 +1,5423 @@
+{
+  "request": {
+    "query": "query { vaults(first:1000, where:{chainId_in:[8453],assetAddress_in:[\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\"]},orderBy:TotalAssetsUsd,orderDirection:Desc){ items {address name creationTimestamp listed asset{address symbol decimals} state{totalAssets totalAssetsUsd} } pageInfo{count countTotal} } }"
+  },
+  "status": 200,
+  "retrieved_utc": "2026-09-08T04:31:57.680505+00:00",
+  "response": {
+    "data": {
+      "vaults": {
+        "items": [
+          {
+            "address": "0xeE8F4eC5672F09119b96Ab6fB59C27E1b7e44b61",
+            "name": "Gauntlet USDC Prime",
+            "creationTimestamp": 1717444929,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 418741702636649,
+              "totalAssetsUsd": 418687574.74082094
+            }
+          },
+          {
+            "address": "0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A",
+            "name": "Spark USDC Vault",
+            "creationTimestamp": 1735575215,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 305982319412694,
+              "totalAssetsUsd": 305942767.1564794
+            }
+          },
+          {
+            "address": "0xbeeF010f9cb27031ad51e3333f9aF9C6B1228183",
+            "name": "Steakhouse USDC",
+            "creationTimestamp": 1717156251,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 133770888680964,
+              "totalAssetsUsd": 133753597.02674909
+            }
+          },
+          {
+            "address": "0xBeEf2d50B428675a1921bC6bBF4bfb9D8cF1461A",
+            "name": "Grove x Steakhouse USDC High Yield",
+            "creationTimestamp": 1760349615,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 95314648451932,
+              "totalAssetsUsd": 95302327.77469872
+            }
+          },
+          {
+            "address": "0x2C6D169782bF18Cc634D076Fe639092227B82fdA",
+            "name": "Froge's USDC",
+            "creationTimestamp": 1761705777,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 26824966220543,
+              "totalAssetsUsd": 26821498.73935344
+            }
+          },
+          {
+            "address": "0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2",
+            "name": "Steakhouse Prime USDC",
+            "creationTimestamp": 1754063035,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 20744530364254,
+              "totalAssetsUsd": 20741848.85970958
+            }
+          },
+          {
+            "address": "0x1401d1271C47648AC70cBcdfA3776D4A87CE006B",
+            "name": "Pangolins USDC",
+            "creationTimestamp": 1763007033,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 11873866588604,
+              "totalAssetsUsd": 11872331.734516772
+            }
+          },
+          {
+            "address": "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
+            "name": "Moonwell Flagship USDC",
+            "creationTimestamp": 1718030247,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 4666019024573,
+              "totalAssetsUsd": 4665415.879985051
+            }
+          },
+          {
+            "address": "0xBEEFA7B88064FeEF0cEe02AAeBBd95D30df3878F",
+            "name": "Steakhouse High Yield USDC v1.1",
+            "creationTimestamp": 1754063035,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2607525426049,
+              "totalAssetsUsd": 2607188.368947351
+            }
+          },
+          {
+            "address": "0xef417a2512C5a41f69AE4e021648b69a7CdE5D03",
+            "name": "Yearn OG USDC",
+            "creationTimestamp": 1739820393,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2054192553974,
+              "totalAssetsUsd": 2053927.0224545163
+            }
+          },
+          {
+            "address": "0xc0c5689e6f4D256E861F65465b691aeEcC0dEb12",
+            "name": "Gauntlet USDC Core",
+            "creationTimestamp": 1717450107,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1837093336887,
+              "totalAssetsUsd": 1836855.8683087823
+            }
+          },
+          {
+            "address": "0x581Cc9a73Ec7431723A4a80699B8f801205841F1",
+            "name": "OUSD Vault V1",
+            "creationTimestamp": 1769463435,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1211146994985,
+              "totalAssetsUsd": 1210990.4382390054
+            }
+          },
+          {
+            "address": "0x1D3b1Cd0a0f242d598834b3F2d126dC6bd774657",
+            "name": "Clearstar USDC Reactor",
+            "creationTimestamp": 1741348301,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 913328495266,
+              "totalAssetsUsd": 913210.4354946964
+            }
+          },
+          {
+            "address": "0xE74c499fA461AF1844fCa84204490877787cED56",
+            "name": "Yield Clearstar USDC",
+            "creationTimestamp": 1744801111,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 793035367952,
+              "totalAssetsUsd": 792932.8576562396
+            }
+          },
+          {
+            "address": "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738",
+            "name": "Seamless USDC Vault",
+            "creationTimestamp": 1736452843,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 737665146634,
+              "totalAssetsUsd": 737569.7936706777
+            }
+          },
+          {
+            "address": "0x5435BC53f2C61298167cdB11Cdf0Db2BFa259ca0",
+            "name": "UltraYield USDC",
+            "creationTimestamp": 1762351795,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 710095315179,
+              "totalAssetsUsd": 710003.5259805371
+            }
+          },
+          {
+            "address": "0xbeEFe1372c0A384aCEcBe8a0Adf3c94c389F6704",
+            "name": "Safe x Steakhouse USDC",
+            "creationTimestamp": 1743679415,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 549878638432,
+              "totalAssetsUsd": 549807.5593551568
+            }
+          },
+          {
+            "address": "0x23479229e52Ab6aaD312D0B03DF9F33B46753B5e",
+            "name": "Extrafi XLend USDC",
+            "creationTimestamp": 1735243561,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 433208022341,
+              "totalAssetsUsd": 433152.0244822782
+            }
+          },
+          {
+            "address": "0xcdDCDd18A16ED441F6CB10c3909e5e7ec2B9e8f3",
+            "name": "Apostro Resolv USDC",
+            "creationTimestamp": 1740071801,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 280626321431,
+              "totalAssetsUsd": 280590.0467724279
+            }
+          },
+          {
+            "address": "0x236919F11ff9eA9550A4287696C2FC9e18E6e890",
+            "name": "Gauntlet USDC Frontier",
+            "creationTimestamp": 1746042273,
+            "listed": true,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 202285640408,
+              "totalAssetsUsd": 202259.49231717797
+            }
+          },
+          {
+            "address": "0x1262623fcCc820B947f883496269c272cF990d1E",
+            "name": "Zircuit Finance USDC on Base",
+            "creationTimestamp": 1771565133,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 55267317576,
+              "totalAssetsUsd": 55260.173545229685
+            }
+          },
+          {
+            "address": "0x8773447e6369472D9B72f064Ea62e405216E9084",
+            "name": "MEV Frontier USDC Vault",
+            "creationTimestamp": 1757694989,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 51350618975,
+              "totalAssetsUsd": 51343.98122925582
+            }
+          },
+          {
+            "address": "0x813862F7276D673a5079Ef174bc1A35e4b970F95",
+            "name": "Julian Capital USDC Liquid",
+            "creationTimestamp": 1774603297,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 48348048758,
+              "totalAssetsUsd": 48341.799134114466
+            }
+          },
+          {
+            "address": "0x12AFDeFb2237a5963e7BAb3e2D46ad0eee70406e",
+            "name": "Re7 USDC",
+            "creationTimestamp": 1718041891,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 48086910784,
+              "totalAssetsUsd": 48080.69491564674
+            }
+          },
+          {
+            "address": "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+            "name": "Universal USDC",
+            "creationTimestamp": 1727869087,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 46281708587,
+              "totalAssetsUsd": 46275.7260648739
+            }
+          },
+          {
+            "address": "0xF4d4fCDdE388408C7A295E1C34C7B204bC0b4BAC",
+            "name": "Lunar Labs Treasury USDC Vault",
+            "creationTimestamp": 1758375411,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 36829203689,
+              "totalAssetsUsd": 36824.44302798115
+            }
+          },
+          {
+            "address": "0x3094b241AaDe60F91f1c82b0628A10d9501462F9",
+            "name": "Earn Max USDC by Mo Wallet",
+            "creationTimestamp": 1760242801,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 33903244348,
+              "totalAssetsUsd": 33898.861905872196
+            }
+          },
+          {
+            "address": "0x3498db8AB73dab97F88dECAF95aEf2e899b42e49",
+            "name": "AA Quad USDC Vault",
+            "creationTimestamp": 1759740985,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 33460860271,
+              "totalAssetsUsd": 33456.53501285718
+            }
+          },
+          {
+            "address": "0x73d1F2AcfF53e55D1b10ee3fcEbd1B668d978CF2",
+            "name": "Sidelined Capital Piggy Bank USDC",
+            "creationTimestamp": 1764131113,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 26041135407,
+              "totalAssetsUsd": 26037.769246295968
+            }
+          },
+          {
+            "address": "0xE1bA476304255353aEF290e6474A417D06e7b773",
+            "name": "Moonwell Ecosystem USDC Vault",
+            "creationTimestamp": 1758829805,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 25304595012,
+              "totalAssetsUsd": 25301.324058870287
+            }
+          },
+          {
+            "address": "0xF6190F97f7AE540234f5924B8992b9C3FD8381b9",
+            "name": "Jarvis USDC",
+            "creationTimestamp": 1747428963,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 14063445360,
+              "totalAssetsUsd": 14061.627473936498
+            }
+          },
+          {
+            "address": "0x0FaBfEAcedf47e890c50C8120177fff69C6a1d9B",
+            "name": "Pyth USDC",
+            "creationTimestamp": 1721212685,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 13983498880,
+              "totalAssetsUsd": 13981.691328074974
+            }
+          },
+          {
+            "address": "0x2b402E91DEC397e5fB9Fa857EDA6558Fe7CA5D67",
+            "name": "Landforge Premier USDC",
+            "creationTimestamp": 1750755345,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10939674148,
+              "totalAssetsUsd": 10938.260050624584
+            }
+          },
+          {
+            "address": "0xCBeeF01994E24a60f7DCB8De98e75AD8BD4Ad60d",
+            "name": "Steakhouse High Yield USDC",
+            "creationTimestamp": 1755087595,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10091627377,
+              "totalAssetsUsd": 10090.322900870782
+            }
+          },
+          {
+            "address": "0xEbC997B855B9a4E0b6cd06E4758801E6Ff068e07",
+            "name": "Pocky's High Yield USDC - Personal Vault",
+            "creationTimestamp": 1760837275,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 7108253897,
+              "totalAssetsUsd": 7107.335061297623
+            }
+          },
+          {
+            "address": "0xD37F32464461B51a739e0D8F7A4AB99Be6d4fa36",
+            "name": "ABRC",
+            "creationTimestamp": 1757073159,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 4053945345,
+              "totalAssetsUsd": 4053.421319019437
+            }
+          },
+          {
+            "address": "0x68AA3790A192e46810a8b423980b96924662BBA8",
+            "name": "Macro USDC Vault",
+            "creationTimestamp": 1755032561,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3567848646,
+              "totalAssetsUsd": 3567.387454438173
+            }
+          },
+          {
+            "address": "0xBeeFa74640a5f7c28966cbA82466EED5609444E0",
+            "name": "Smokehouse USDC",
+            "creationTimestamp": 1741727497,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2276235014,
+              "totalAssetsUsd": 2275.9407805598094
+            }
+          },
+          {
+            "address": "0x50b5b81Fc8B1f1873Ec7F31B0E98186ba008814D",
+            "name": "IndeFi USDC",
+            "creationTimestamp": 1740109429,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1644137272,
+              "totalAssetsUsd": 1643.9247455417428
+            }
+          },
+          {
+            "address": "0x3aC2bBD41D7A92326dA602f072D40255Dd8D23a2",
+            "name": "Morpho Base wETH",
+            "creationTimestamp": 1745454777,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1498422688,
+              "totalAssetsUsd": 1498.2289970763309
+            }
+          },
+          {
+            "address": "0xCd347c1e7d600a9A3e403497562eDd0A7Bc3Ef21",
+            "name": "Ionic Ecosystem USDC",
+            "creationTimestamp": 1733941169,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1273183078,
+              "totalAssetsUsd": 1273.0185022709
+            }
+          },
+          {
+            "address": "0x8AC6BB3c998C63a8D2a718a6C1affb3069543257",
+            "name": "TFT USDC",
+            "creationTimestamp": 1749523301,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 903470232,
+              "totalAssetsUsd": 903.353446539432
+            }
+          },
+          {
+            "address": "0xE6840572fA4d1DB9f85A80b6Ff7e198DEa5466Fb",
+            "name": "base-test",
+            "creationTimestamp": 1742344223,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 755835925,
+              "totalAssetsUsd": 755.7382232235733
+            }
+          },
+          {
+            "address": "0xA341Cc6028d87b50E2A09BfD7e205C231bbA9adc",
+            "name": "Max Yield USDC",
+            "creationTimestamp": 1745317589,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 650890634,
+              "totalAssetsUsd": 650.806497788558
+            }
+          },
+          {
+            "address": "0x851f93e38214f345747Ea63CB7B115c9Cb30C4d9",
+            "name": "Testing USDC",
+            "creationTimestamp": 1754830659,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 429828789,
+              "totalAssetsUsd": 429.7732279518206
+            }
+          },
+          {
+            "address": "0xa657e58d8530e9727a8241C6991be4790d0Ea470",
+            "name": "Magic Genie USDC",
+            "creationTimestamp": 1743693599,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 407587227,
+              "totalAssetsUsd": 407.5345409674768
+            }
+          },
+          {
+            "address": "0x5990B44027B248A5902082A5f3280F6a627EB8B4",
+            "name": "0xequity RWA USDC",
+            "creationTimestamp": 1734594813,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 375038772,
+              "totalAssetsUsd": 374.9902932851873
+            }
+          },
+          {
+            "address": "0xC8adBFCFaC975583c8684C4e12633907315Ca610",
+            "name": "CPT48 Selection",
+            "creationTimestamp": 1761217763,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 303888353,
+              "totalAssetsUsd": 303.8490714166015
+            }
+          },
+          {
+            "address": "0xED0A7A49f2228E01a3169C4A5a72a2EbFE8756Dc",
+            "name": "MetaMorpho Test",
+            "creationTimestamp": 1716475793,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 243085514,
+              "totalAssetsUsd": 243.05409198662932
+            }
+          },
+          {
+            "address": "0xC440d9CFC9A75300A93AC8544d307A1484Aff0e7",
+            "name": "HavenFi Yield",
+            "creationTimestamp": 1764562369,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 174116506,
+              "totalAssetsUsd": 174.09399914185957
+            }
+          },
+          {
+            "address": "0x346AAC1E83239dB6a6cb760e95E13258AD3d1A6d",
+            "name": "Monarch M1",
+            "creationTimestamp": 1738036035,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 161479479,
+              "totalAssetsUsd": 161.45860564450984
+            }
+          },
+          {
+            "address": "0x75e1A1f9535C01CDcE25E51ea4aFF0d171337E1F",
+            "name": "Apostro USDC",
+            "creationTimestamp": 1759929449,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 129310279,
+              "totalAssetsUsd": 129.29356393850233
+            }
+          },
+          {
+            "address": "0x7Fd62B11654F0DD41AD30EdDa8174366e225E712",
+            "name": "Lumetra Opportunistic USDC",
+            "creationTimestamp": 1738420053,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 100586688,
+              "totalAssetsUsd": 100.57368584202176
+            }
+          },
+          {
+            "address": "0xc43f5F199a055F38de4629dd14d18e69dAe9f29D",
+            "name": "Anzen Boosted USDC",
+            "creationTimestamp": 1729502323,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 100027804,
+              "totalAssetsUsd": 100.01487408516054
+            }
+          },
+          {
+            "address": "0xC0ef2905ad0Ac423D5434ce89Eafe1F2C5bD6030",
+            "name": "Testing with Frens",
+            "creationTimestamp": 1746654337,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 83744038,
+              "totalAssetsUsd": 83.73321297699287
+            }
+          },
+          {
+            "address": "0xdB90A4e973B7663ce0Ccc32B6FbD37ffb19BfA83",
+            "name": "Degen USDC",
+            "creationTimestamp": 1718641389,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 63260451,
+              "totalAssetsUsd": 63.25227375116091
+            }
+          },
+          {
+            "address": "0x9d58a6c81d5ed6eE64BcF3D2d74E2CCf476dAb55",
+            "name": "Morpho Base cbETH",
+            "creationTimestamp": 1745487447,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 54170658,
+              "totalAssetsUsd": 54.16365572696462
+            }
+          },
+          {
+            "address": "0x85901E44FB8Bff7d777333b4376bED463678e3a5",
+            "name": "Idle USDC Vault",
+            "creationTimestamp": 1754599615,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 50000000,
+              "totalAssetsUsd": 49.99353683959738
+            }
+          },
+          {
+            "address": "0xfc8a325A2403CD940649B48ffcDfC250e084A27C",
+            "name": "dForce USDC",
+            "creationTimestamp": 1756870275,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 41575732,
+              "totalAssetsUsd": 41.57035778750456
+            }
+          },
+          {
+            "address": "0x57be8d288a47644Df1aa6F25DCb788F0bF420B7a",
+            "name": "VAULT-TST",
+            "creationTimestamp": 1745950573,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 29036602,
+              "totalAssetsUsd": 29.03284863567454
+            }
+          },
+          {
+            "address": "0x687DfeCD7950a17236C51b517FaE2F9279FFC88d",
+            "name": "Not Gauntlet",
+            "creationTimestamp": 1742587815,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 27420904,
+              "totalAssetsUsd": 27.417359485981265
+            }
+          },
+          {
+            "address": "0x5A2E9a8C16558D81A690e5Dd262063E654C2497D",
+            "name": "vvv-usdc",
+            "creationTimestamp": 1762248135,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 26559421,
+              "totalAssetsUsd": 26.555987844037528
+            }
+          },
+          {
+            "address": "0x7Ce5F356a10BBF528618259404543BB1e6412B69",
+            "name": "Test USDC 2",
+            "creationTimestamp": 1739854971,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 21945424,
+              "totalAssetsUsd": 21.942587264091692
+            }
+          },
+          {
+            "address": "0xcd5B9e6EC27A2359770DcD2CAbBf03b5719dF199",
+            "name": "test-455",
+            "creationTimestamp": 1762314935,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 13330677,
+              "totalAssetsUsd": 13.328953833925471
+            }
+          },
+          {
+            "address": "0x15dEf17d02C4a5eB3bC51f58cb799369ebb217aF",
+            "name": "PaperHands USDC Yield",
+            "creationTimestamp": 1763412453,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 13050205,
+              "totalAssetsUsd": 13.04851808863596
+            }
+          },
+          {
+            "address": "0xf7e26Fa48A568b8b0038e104DfD8ABdf0f99074F",
+            "name": "Muscadine USDC Vault",
+            "creationTimestamp": 1749079867,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 12510934,
+              "totalAssetsUsd": 12.50931679653543
+            }
+          },
+          {
+            "address": "0x45F8712D3E24B6cd20791B326736413aBC8393FD",
+            "name": "V1",
+            "creationTimestamp": 1758293215,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 12433199,
+              "totalAssetsUsd": 12.431591844810908
+            }
+          },
+          {
+            "address": "0x43e623Ff7D14d5b105F7bE9c488F36dbF11D1F46",
+            "name": "Clearstar Boring USDC",
+            "creationTimestamp": 1760636253,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 11355935,
+              "totalAssetsUsd": 11.354467095411467
+            }
+          },
+          {
+            "address": "0x31b9378B03959f262c77BC8D138a95BAF12d242b",
+            "name": "VeloForge Vault USDC (Base)",
+            "creationTimestamp": 1754594903,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 11157132,
+              "totalAssetsUsd": 11.155689793325019
+            }
+          },
+          {
+            "address": "0xE2647d21612A7ba3C9b61825C2e28c0796226ae6",
+            "name": "Snow USDC",
+            "creationTimestamp": 1756429265,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10478991,
+              "totalAssetsUsd": 10.47763645200619
+            }
+          },
+          {
+            "address": "0xFfD3D9fc55ffC0F5234c24ee22C8a2EB7b1fbC50",
+            "name": "tstcntrct",
+            "creationTimestamp": 1763513529,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10392454,
+              "totalAssetsUsd": 10.391110638056425
+            }
+          },
+          {
+            "address": "0xC2Ae07Cb4C3242B3f09526FC92AA3F4Aa1c9922f",
+            "name": "USDC Madness",
+            "creationTimestamp": 1762614637,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10373214,
+              "totalAssetsUsd": 10.371873125080548
+            }
+          },
+          {
+            "address": "0x3a7036585619e70FFb0585060B4Ef40e567c7058",
+            "name": "usdc staging",
+            "creationTimestamp": 1770830441,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10223888,
+              "totalAssetsUsd": 10.222566427438354
+            }
+          },
+          {
+            "address": "0x3E3D0C3eFeB1617255D38B02E8eDdA7fAe69d601",
+            "name": "USDCvault",
+            "creationTimestamp": 1758887575,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10000009,
+              "totalAssetsUsd": 9.998716366756108
+            }
+          },
+          {
+            "address": "0x997ad9EB11B397a2B082A3ab0BA36B798b81A287",
+            "name": "Poindexter",
+            "creationTimestamp": 1745345399,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 9626244,
+              "totalAssetsUsd": 9.624999680819066
+            }
+          },
+          {
+            "address": "0x1D322633f0af9e37e3A709d8Fd4eB59684231576",
+            "name": "Starta USDC Pre-Deposit Vault",
+            "creationTimestamp": 1749690563,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 9226348,
+              "totalAssetsUsd": 9.225155372658913
+            }
+          },
+          {
+            "address": "0x487F87327Bbb0f6Bc58D8f1F28308D3F16014377",
+            "name": "Balloon Morpho Strategy 1 ",
+            "creationTimestamp": 1741265937,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 8260407,
+              "totalAssetsUsd": 8.259339233291364
+            }
+          },
+          {
+            "address": "0x8333dCCcfB6F76dD1AFB03ED0f8c46954aaCC304",
+            "name": "Morph USDC",
+            "creationTimestamp": 1755202921,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 8120801,
+              "totalAssetsUsd": 8.119751279210785
+            }
+          },
+          {
+            "address": "0x8A034f069D59d62a4643ad42E49b846d036468D7",
+            "name": "Blue Chip USDC Vault (Prime)",
+            "creationTimestamp": 1759777587,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 6218648,
+              "totalAssetsUsd": 6.217844157609772
+            }
+          },
+          {
+            "address": "0xe4e956f8f1C4D72114731184Fdc8a26238eB9351",
+            "name": "Seamless USDC Vault",
+            "creationTimestamp": 1746777339,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5733931,
+              "totalAssetsUsd": 5.73318981368419
+            }
+          },
+          {
+            "address": "0xE0dcb5fCBA60F60a74041081D8401a55cdcc4795",
+            "name": "bf test",
+            "creationTimestamp": 1764229453,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5564226,
+              "totalAssetsUsd": 5.563506750296912
+            }
+          },
+          {
+            "address": "0x65e273a37dcDd310170E580883Ac9148AE6C03dD",
+            "name": "Ceres USDC Vault",
+            "creationTimestamp": 1745431707,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5366204,
+              "totalAssetsUsd": 5.3655103472558965
+            }
+          },
+          {
+            "address": "0x397e1fc06D87fa47D681b672d22000A67F002c17",
+            "name": "Bond cbBTC/USDC Morpho Vault",
+            "creationTimestamp": 1762909611,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5155642,
+              "totalAssetsUsd": 5.154975565175511
+            }
+          },
+          {
+            "address": "0xcb924BFaCBfa9401129Cb89A2093cd8a5a4Abd62",
+            "name": "Notional USDC",
+            "creationTimestamp": 1747239215,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5064971,
+              "totalAssetsUsd": 5.0643162855998485
+            }
+          },
+          {
+            "address": "0x0e6f4BEF3785f746Cddb9fe8Db70ce9b0a25A02F",
+            "name": "My Cool USDC Vault on Base",
+            "creationTimestamp": 1758638905,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5043578,
+              "totalAssetsUsd": 5.042926050927658
+            }
+          },
+          {
+            "address": "0x0f7A0B454Dc4071F3C94C97798d5f74366C3C1d7",
+            "name": "Longtail Strategy USDC",
+            "creationTimestamp": 1761602685,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3881787,
+              "totalAssetsUsd": 3.8812852277594043
+            }
+          },
+          {
+            "address": "0x4Acf04037dBC98Ea0823a8a79467408034740Ecb",
+            "name": "TEST DTF Vault",
+            "creationTimestamp": 1738918715,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3574274,
+              "totalAssetsUsd": 3.5738119778763022
+            }
+          },
+          {
+            "address": "0x1491CBA488bcF3dC3762558323806a005D009A36",
+            "name": "Nekodex USDC Morpho Vault",
+            "creationTimestamp": 1736411573,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3311412,
+              "totalAssetsUsd": 3.310983956261697
+            }
+          },
+          {
+            "address": "0x29A2573CE2Ee8fD75a99Cf78eD773D12596a9115",
+            "name": "Test USDC Vault",
+            "creationTimestamp": 1757009231,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3305292,
+              "totalAssetsUsd": 3.3048647473525308
+            }
+          },
+          {
+            "address": "0x37E6C71c64163f2C343d5eF8eecbe6C9EA1B09Ec",
+            "name": "Balloon Direct Morpho Vault",
+            "creationTimestamp": 1741764539,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3279899,
+              "totalAssetsUsd": 3.2794750297331725
+            }
+          },
+          {
+            "address": "0xAB661be33FC1fb6cBFd1BB6f3b8Dad4950b57b6d",
+            "name": "Vaulter",
+            "creationTimestamp": 1765185149,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 3039608,
+              "totalAssetsUsd": 3.0392150905186983
+            }
+          },
+          {
+            "address": "0x5C5bf79298A550dA3fCA596CD020F1300b0A0E70",
+            "name": "ARCHITECT Benchmark I",
+            "creationTimestamp": 1759194103,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2158017,
+              "totalAssetsUsd": 2.157738047799549
+            }
+          },
+          {
+            "address": "0x9E9a74Ef35b74dfb61B778250304F4Fcb446f268",
+            "name": "Storm USDC",
+            "creationTimestamp": 1717818171,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2139831,
+              "totalAssetsUsd": 2.13955439858025
+            }
+          },
+          {
+            "address": "0xBaa2CB1EC94a03758B924561b89aC5BcCb970161",
+            "name": "Starta FX: USDC",
+            "creationTimestamp": 1747452567,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2105195,
+              "totalAssetsUsd": 2.1049228757407246
+            }
+          },
+          {
+            "address": "0x74Ff7A3a769b1E4FdEDBfe871D27762C83324fc4",
+            "name": "test-gx",
+            "creationTimestamp": 1761539393,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2078319,
+              "totalAssetsUsd": 2.078050349818704
+            }
+          },
+          {
+            "address": "0x874aab24BC783a386275D796699CD8A7772A78B9",
+            "name": "SCL",
+            "creationTimestamp": 1766922487,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2059090,
+              "totalAssetsUsd": 2.0588238354209314
+            }
+          },
+          {
+            "address": "0x6D5E48cc5e17438861fddecCce93CbC19bF04652",
+            "name": "MVPT MetaMorpho",
+            "creationTimestamp": 1783340735,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2014870,
+              "totalAssetsUsd": 2.014609551439992
+            }
+          },
+          {
+            "address": "0x532A3fB6E00A5DBC2c40b10dec5793538D2E4BF8",
+            "name": "LayerZero vault by fran6.eth",
+            "creationTimestamp": 1726939211,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2000000,
+              "totalAssetsUsd": 1.9997414735838954
+            }
+          },
+          {
+            "address": "0xE007b1C90A5FB7527F47db7d450b8bD31d793205",
+            "name": "Statera Frontier USDC",
+            "creationTimestamp": 1756841293,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1981269,
+              "totalAssetsUsd": 1.9810128948130454
+            }
+          },
+          {
+            "address": "0xb7b4e1F7086820a02f9d630AB013596115574710",
+            "name": "Kedao USDC Vault",
+            "creationTimestamp": 1763094595,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1701001,
+              "totalAssetsUsd": 1.70078112315384
+            }
+          },
+          {
+            "address": "0x793356B1C6120Fdf24Ee80FB76959675E99fBb2a",
+            "name": "Baguette USDC Yield",
+            "creationTimestamp": 1768419429,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1652186,
+              "totalAssetsUsd": 1.6519724331373409
+            }
+          },
+          {
+            "address": "0x0ab57222865631b6c921F5bE8cE9A9588dE3e326",
+            "name": "Balloon Morpho Strategy 2",
+            "creationTimestamp": 1741766585,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1172906,
+              "totalAssetsUsd": 1.1727543864076961
+            }
+          },
+          {
+            "address": "0x0FD9B4f66956647B14c864dA3FDf4f142B9d4830",
+            "name": "Core USDC",
+            "creationTimestamp": 1762009387,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1143234,
+              "totalAssetsUsd": 1.1430862219056057
+            }
+          },
+          {
+            "address": "0x76987f469C0fEf310e233378f061471D7d1Ca224",
+            "name": "test vault grim",
+            "creationTimestamp": 1756998889,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1123942,
+              "totalAssetsUsd": 1.1237967156514153
+            }
+          },
+          {
+            "address": "0x6FFEe92E508D39A4b3edeB054E8a8B5e0F4BcdD9",
+            "name": "testusdc",
+            "creationTimestamp": 1723822575,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1109851,
+              "totalAssetsUsd": 1.10970753709928
+            }
+          },
+          {
+            "address": "0xb2B5FB2849BcaF6E40FC8a2b8Dc8adeb32EF5490",
+            "name": "Balloon Morpho Vault",
+            "creationTimestamp": 1743691017,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1080876,
+              "totalAssetsUsd": 1.0807362825007332
+            }
+          },
+          {
+            "address": "0xECC01B64dbB1E6DA6F2c431207B71768A2d3754a",
+            "name": "testMetaUSDC",
+            "creationTimestamp": 1743019801,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1074420,
+              "totalAssetsUsd": 1.0742811170240043
+            }
+          },
+          {
+            "address": "0xFfedad42083E2Eb8Ca401F09c0038A9DeD7eF8e5",
+            "name": "Allez USDC",
+            "creationTimestamp": 1749143987,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1064801,
+              "totalAssetsUsd": 1.0646633604068028
+            }
+          },
+          {
+            "address": "0xBEEf0069cfEC71fCc928049fbEefeD8A9f5B9ffb",
+            "name": "Tron x Steakhouse USDC V1.1",
+            "creationTimestamp": 1765096759,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1046282,
+              "totalAssetsUsd": 1.0461467542321525
+            }
+          },
+          {
+            "address": "0x95aAC81D2d5a32Ca66e37A888Aa820932DB4C5E3",
+            "name": "SCL_Destroyer",
+            "creationTimestamp": 1765545251,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1041159,
+              "totalAssetsUsd": 1.0410244164475675
+            }
+          },
+          {
+            "address": "0x9CBF0184036048895e69aAFb4D0A1598085bFc82",
+            "name": "Pofu Base USDC",
+            "creationTimestamp": 1763115129,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1036652,
+              "totalAssetsUsd": 1.036517999036846
+            }
+          },
+          {
+            "address": "0xa1E399f9F9297032C740C074652605eedE633D4A",
+            "name": "Morpho Test MetaMorpho",
+            "creationTimestamp": 1784050545,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1006471,
+              "totalAssetsUsd": 1.0063409003297283
+            }
+          },
+          {
+            "address": "0x363Ab339d660504842A73C7EafD136BE2EfE9F9a",
+            "name": "Test Api3 USDC",
+            "creationTimestamp": 1747127841,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1001158,
+              "totalAssetsUsd": 1.0010285871051527
+            }
+          },
+          {
+            "address": "0x3849EE776BdE7b20b6b09E519136A256e6d25474",
+            "name": "testdnu",
+            "creationTimestamp": 1738091909,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1000530,
+              "totalAssetsUsd": 1.0004006682824473
+            }
+          },
+          {
+            "address": "0xCc8862573Cf12A919FbD33182eA3C4D6F9a96945",
+            "name": "Moonwell Growth/Underperform USDC",
+            "creationTimestamp": 1758308513,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1000084,
+              "totalAssetsUsd": 0.9999547259338382
+            }
+          },
+          {
+            "address": "0x26e377DBF0C8C76C050be7F362153D03cd947C62",
+            "name": "Clearstar",
+            "creationTimestamp": 1768771203,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1000000,
+              "totalAssetsUsd": 0.9998707367919477
+            }
+          },
+          {
+            "address": "0x2c8e1e0a03c1c2277E2b24A798728CB30599FF59",
+            "name": "Virtual TAO USDC Test",
+            "creationTimestamp": 1759455589,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1000000,
+              "totalAssetsUsd": 0.9998707367919477
+            }
+          },
+          {
+            "address": "0x8156ade784Fe5a49d9E1C8069562149E1B088eeB",
+            "name": "quirky test usdc vault",
+            "creationTimestamp": 1772060645,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1000000,
+              "totalAssetsUsd": 0.9998707367919477
+            }
+          },
+          {
+            "address": "0x6e6E070EeAeca296D797083F2Bf3F207Cce91DFA",
+            "name": "0xf99 Prudent",
+            "creationTimestamp": 1745589927,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 172516,
+              "totalAssetsUsd": 0.17249370002839964
+            }
+          },
+          {
+            "address": "0xa2cea40909F29028f2F6a2ca1d0305b6f52a3312",
+            "name": "Brrrstr USDC",
+            "creationTimestamp": 1764251293,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 120326,
+              "totalAssetsUsd": 0.1203104462752279
+            }
+          },
+          {
+            "address": "0xa8D41b9B35CAB7bF8215e6BDE3eFEACbDADF94bE",
+            "name": "Nova Curated USDC",
+            "creationTimestamp": 1782259307,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 111879,
+              "totalAssetsUsd": 0.11186453816154632
+            }
+          },
+          {
+            "address": "0xe771e7284C06624423967f8BE86280404Ad93015",
+            "name": "esabtsetu",
+            "creationTimestamp": 1746199463,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 106961,
+              "totalAssetsUsd": 0.10694717387800352
+            }
+          },
+          {
+            "address": "0xA4D73200beC697Ba2B4d1b04e337c510f038d8fB",
+            "name": "BTC-ETH-SOL MEGA3",
+            "creationTimestamp": 1762981051,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 103694,
+              "totalAssetsUsd": 0.10368059618090422
+            }
+          },
+          {
+            "address": "0xaB6fA0BD814075E8966D3045368e005812DDe4dF",
+            "name": "test vault",
+            "creationTimestamp": 1764070001,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 62068,
+              "totalAssetsUsd": 0.06205997689120261
+            }
+          },
+          {
+            "address": "0x76238B005Dcd48460C2dCce51C92049065702605",
+            "name": "Elixir Capital USDC",
+            "creationTimestamp": 1734939965,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 52476,
+              "totalAssetsUsd": 0.05246921678389425
+            }
+          },
+          {
+            "address": "0xb2a61553B3b5fDd22E23ccD5d0DB897a5a763ae0",
+            "name": "jvaTestv1",
+            "creationTimestamp": 1765208077,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 38805,
+              "totalAssetsUsd": 0.03879998394121153
+            }
+          },
+          {
+            "address": "0xE841098de0e2E4956D486af137acdB5bBdd3e238",
+            "name": "SageFlow USDC Vault",
+            "creationTimestamp": 1741282517,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 31781,
+              "totalAssetsUsd": 0.031776891885984884
+            }
+          },
+          {
+            "address": "0xF4C76665312ad43DB5BA748DEC049d20123A6183",
+            "name": "Goatlend USDC Core",
+            "creationTimestamp": 1755249825,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 15149,
+              "totalAssetsUsd": 0.015147041791661216
+            }
+          },
+          {
+            "address": "0xD8a8daD19B1C804dF17D85809f8Fc39286a79938",
+            "name": "testVault 961",
+            "creationTimestamp": 1728285815,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10893,
+              "totalAssetsUsd": 0.010891591935874686
+            }
+          },
+          {
+            "address": "0xE93Dc1151B9aC046F6F6d6f73834cd53dDFA530E",
+            "name": "SageFlow Frontier USDC",
+            "creationTimestamp": 1741022967,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10869,
+              "totalAssetsUsd": 0.01086759503819168
+            }
+          },
+          {
+            "address": "0xF07D7E384D60591BA97611a0CE3CEA3ACE0EFf71",
+            "name": "SageFlow Flagship USDC",
+            "creationTimestamp": 1740991089,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 10809,
+              "totalAssetsUsd": 0.010807602793984163
+            }
+          },
+          {
+            "address": "0x5478b47841D48b0DEc33b3d26ac8d7cB65C82e45",
+            "name": "LR USDC Base",
+            "creationTimestamp": 1762826565,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 6351,
+              "totalAssetsUsd": 0.00635017904936566
+            }
+          },
+          {
+            "address": "0x5132017227beb383783085d94Ca43Fb5F188a7d7",
+            "name": "Term Prime USDC",
+            "creationTimestamp": 1768241249,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 5290,
+              "totalAssetsUsd": 0.005289316197629404
+            }
+          },
+          {
+            "address": "0xC3D1CE46D3e4B62F99bA6fdc36bC29628eac89a8",
+            "name": "test MetaMorpho",
+            "creationTimestamp": 1782784789,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2016,
+              "totalAssetsUsd": 0.0020157394053725666
+            }
+          },
+          {
+            "address": "0x93BB46b3abd806F57273F2bEabCa6E9665DA63CE",
+            "name": "test USDC Vault",
+            "creationTimestamp": 1741002703,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1735,
+              "totalAssetsUsd": 0.0017347757283340292
+            }
+          },
+          {
+            "address": "0xB6BFdf9b1648BDCC51d58231C520ba89749DD9A8",
+            "name": "Morpho test MetaMorpho",
+            "creationTimestamp": 1782827329,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1008,
+              "totalAssetsUsd": 0.0010078697026862833
+            }
+          },
+          {
+            "address": "0xCdA1d6A7cf8D26Ea6c5450f670F90Fb6a2D3974e",
+            "name": "morpho test MetaMorpho",
+            "creationTimestamp": 1782784455,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1008,
+              "totalAssetsUsd": 0.0010078697026862833
+            }
+          },
+          {
+            "address": "0x12Df50fff722358Ce0d842cED9a670D8eb8Cf586",
+            "name": "Gneiss Pioneer USDC",
+            "creationTimestamp": 1779815603,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 913,
+              "totalAssetsUsd": 0.0009128819826910483
+            }
+          },
+          {
+            "address": "0xF9Bb27652D052dbEaB03f4402F1015e3Aa5109bC",
+            "name": "USDC-CBBTC market",
+            "creationTimestamp": 1788434903,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 101,
+              "totalAssetsUsd": 0.00010098694441598672
+            }
+          },
+          {
+            "address": "0xacC6841eaf6dc328855Ad96Df1D954eAaf4A26fd",
+            "name": "Morpho CBBTC market",
+            "creationTimestamp": 1788434123,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 101,
+              "totalAssetsUsd": 0.00010098694441598672
+            }
+          },
+          {
+            "address": "0x994F1E780f9ac0Dc72ad3C27dd4270A4B5350c19",
+            "name": "maxeymum",
+            "creationTimestamp": 1750764893,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 61,
+              "totalAssetsUsd": 6.0992114944308806e-05
+            }
+          },
+          {
+            "address": "0x829232B6DfC70E529e8268c42E656EE35b448922",
+            "name": "yldr test vault",
+            "creationTimestamp": 1744378255,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 29,
+              "totalAssetsUsd": 2.8996251366966485e-05
+            }
+          },
+          {
+            "address": "0x0000F0bCf156ec9Fca2510b3200f87609e34cF5D",
+            "name": "Goatlet USDC Frontier",
+            "creationTimestamp": 1757388685,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 15,
+              "totalAssetsUsd": 1.4998061051879216e-05
+            }
+          },
+          {
+            "address": "0x106f41EF60eE31C61162B0b4ba565C54E548cE42",
+            "name": "AI Balance USDC Vault",
+            "creationTimestamp": 1756650549,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 13,
+              "totalAssetsUsd": 1.299831957829532e-05
+            }
+          },
+          {
+            "address": "0x26c9Fa1A5E95D249a099dB46df12437EE762c457",
+            "name": "USDC Test Vault",
+            "creationTimestamp": 1750862133,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2,
+              "totalAssetsUsd": 1.9997414735838955e-06
+            }
+          },
+          {
+            "address": "0x59c09Bc0a4F77cFCEF9FB5Ece1da1cC5516fa7F5",
+            "name": "Test XEQ  Vault",
+            "creationTimestamp": 1734437587,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2,
+              "totalAssetsUsd": 1.9997414735838955e-06
+            }
+          },
+          {
+            "address": "0x931Ef586AC15E7ecC5d761FDf609b11Cd218076E",
+            "name": "Super USDC Vault",
+            "creationTimestamp": 1754021383,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2,
+              "totalAssetsUsd": 1.9997414735838955e-06
+            }
+          },
+          {
+            "address": "0xC7A278B9F2716051BD8724fa3e9dF3759adA6FCf",
+            "name": "Only Trust",
+            "creationTimestamp": 1764443125,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 2,
+              "totalAssetsUsd": 1.9997414735838955e-06
+            }
+          },
+          {
+            "address": "0x18f85dadCc1AeEbf4a25455C2d92610f0153ED29",
+            "name": "Blue Chip Degen",
+            "creationTimestamp": 1764664927,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x419A4C0D284d3835BecaaFAAA025C414A9a05c52",
+            "name": "RNADO3",
+            "creationTimestamp": 1788358229,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x47f34AB608eF8A67b35124C10Aec37A8fB461a2D",
+            "name": "USDC/WETH Market Vault",
+            "creationTimestamp": 1788775077,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x72EC79c1282b2b707D4FB0be2eD70f7E6830FFB9",
+            "name": "USDC/cbXRP Market Vault",
+            "creationTimestamp": 1788775009,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x7BAcBF01aac9D327060CFBF9B6Ae9e4ea40132be",
+            "name": "My Vault",
+            "creationTimestamp": 1764749787,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x82cAa8858d4165C3a09754Fd5503a0453d8aC08e",
+            "name": "Test Vault",
+            "creationTimestamp": 1788521731,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x861F47d8dA4a23d36D70CDDD775c4fbaF9Dd2c40",
+            "name": "Lightning USDC",
+            "creationTimestamp": 1764012545,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x882331F81d375a9E90780E4367B0d643C6467fC1",
+            "name": "USDC/cbETH Market Vault",
+            "creationTimestamp": 1788775203,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x8D1c8b59947E144cad164831a9b12d1030AFCa5A",
+            "name": "Glocusent USDC ezETH",
+            "creationTimestamp": 1726971305,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0xE64373a2bbD4D925C266140D1e064EDf9EB4bAEf",
+            "name": "Rafael No Timelock",
+            "creationTimestamp": 1769522457,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0xEED3101eF5756e4aE5c2F285553B0D0939047fDA",
+            "name": "Test Vault2",
+            "creationTimestamp": 1788522111,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0xa62a3b5F3BC3A861964284d597e796B6f987E015",
+            "name": "Natural Intelligence USDC",
+            "creationTimestamp": 1745943307,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0xe5194A03e554efC4477E3127B056a775b1D7A3e9",
+            "name": "USDC/cbBTC Market Vault",
+            "creationTimestamp": 1788775145,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 1,
+              "totalAssetsUsd": 9.998707367919477e-07
+            }
+          },
+          {
+            "address": "0x00000C4529222293D4C3c1d0d9bdBfc8DBf37E5c",
+            "name": "Jason The Whale Test",
+            "creationTimestamp": 1757212111,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x00002286c5f786544f938af4282D0deD9236db8f",
+            "name": "Jason The Whale",
+            "creationTimestamp": 1757084889,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0091B6bD63F24D9cd3B64DaEB9e51302fF720C95",
+            "name": "test-913",
+            "creationTimestamp": 1762315727,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0171D2faF0F90072f2E549c2F5A36A3DC591565B",
+            "name": "Clearstar",
+            "creationTimestamp": 1768769255,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x01F0383414a50804D4E43Df6Cc99962EEd78A9DE",
+            "name": "sus",
+            "creationTimestamp": 1743684551,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x02f0f39E72574cA6cD3bF724E6A5d1b334C36257",
+            "name": "tv",
+            "creationTimestamp": 1758716755,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x035A66b077B4503968a17fb47AadB1e1512bD3b0",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768282891,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x03d6afcE8f842590A4f16FCD3127Da8C4B2909F5",
+            "name": "SW USDC vault",
+            "creationTimestamp": 1750446887,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0442F2566BA8563DE6A92c8088188041a7eEf567",
+            "name": "tvo0mni5kue4c",
+            "creationTimestamp": 1758717407,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x05CF55f4FDd7aB59c9521D1777a1943aEDB77195",
+            "name": "tv2",
+            "creationTimestamp": 1758716817,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x060D9678BC1B58a499135B12fcA8ed25BCdD5E4A",
+            "name": "test spine base1",
+            "creationTimestamp": 1770877083,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x08fF490aC96eDE9649f8b02bb743FE9573720acB",
+            "name": "USDCA",
+            "creationTimestamp": 1758538875,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x096442b35624556E138C8070770f0069767e818F",
+            "name": "Test USDC",
+            "creationTimestamp": 1765543655,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0D94Af202576b33E87b37197d089494d393b3Fb0",
+            "name": "RNADO",
+            "creationTimestamp": 1788351311,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0E95a6571c39A0f707ED89fb2791F64E57F900C7",
+            "name": "TestUSDCsnARS",
+            "creationTimestamp": 1726686853,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0EEb777caD5af7A0820ca7eEDe4483280E91074D",
+            "name": "Moonwell Growth/Underperform USDC",
+            "creationTimestamp": 1758309193,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0EeE72D8229c7973b6924A42954287d0d2A1e0e8",
+            "name": "Glocusent USDC weETH",
+            "creationTimestamp": 1726971365,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0F362D1cf351CcFB2ac6D1AD9ac7a75bE24B2454",
+            "name": "xsd",
+            "creationTimestamp": 1758540971,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0bE13349DE30ac208b1AC5f68c14Ce53CEf19a25",
+            "name": "Rezerve USDC",
+            "creationTimestamp": 1761561025,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0cF39718D5E9b60548fD43fcC4D95b9f9c6a1698",
+            "name": "tv2",
+            "creationTimestamp": 1758716799,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0d94620380b71Ec57878e3Cc7af205cD6eCe0638",
+            "name": "TRUMP USDC",
+            "creationTimestamp": 1763443753,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x0e9C2c54f8B7a6eD18bC543135B0a3ffAE72848A",
+            "name": "Keelat USDC Vault",
+            "creationTimestamp": 1767881059,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x1023a5d3E3e7E1010d8444E67e6A50DC341fdd8F",
+            "name": "Vaulter White",
+            "creationTimestamp": 1745951677,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x1108bA213483911F063E5a649199c87fA7BA8429",
+            "name": "MEV Capital USDC",
+            "creationTimestamp": 1733322367,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x1333cFD34A7dd43E02676F81E1887da373307C44",
+            "name": "tvgi1mlw6idbw",
+            "creationTimestamp": 1758717469,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x13FC9e5456c5A272636f1cdb6d2E17524CD1c703",
+            "name": "Moonwell Growth/Underperform USDC",
+            "creationTimestamp": 1758307805,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x16238A6532AC271B41C481dBF0DE6E334d8603E1",
+            "name": "tvcn81bs0v54",
+            "creationTimestamp": 1758722607,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x176244332E03a3fd0AfeE0089D523eA737A9Ffc7",
+            "name": "dest2",
+            "creationTimestamp": 1767627925,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x190b70dC5453E09763692315498D4eaD1E37CaA4",
+            "name": "yieldUSDC",
+            "creationTimestamp": 1745608989,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x1DeD0EB527308e96eddC8000604B4960b96680EB",
+            "name": "Dune USDC v1",
+            "creationTimestamp": 1761226557,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x1d972E9ed4e1280BB8f7eB30Df40dFD1B266D51a",
+            "name": "Zircuit Finance USDC Base",
+            "creationTimestamp": 1768493365,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x20d85F2E4C2a1Fa663D8337b45192B2F55B0E54A",
+            "name": "GW7A-20260706-A",
+            "creationTimestamp": 1783340881,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x21424d444cf1A5Cd3934928429C704bDc2263550",
+            "name": "BRZ Borrow",
+            "creationTimestamp": 1746223453,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x219124581eD32b1722D7069509D6e28e2A9CF25A",
+            "name": "S",
+            "creationTimestamp": 1758539525,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x21D183bE31f4A99979495482137EFd1EEb710Cc6",
+            "name": "CPT48",
+            "creationTimestamp": 1761217707,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x22F5F455BCab721539A624DDa93F2ccbC7F428F6",
+            "name": "xxjsds",
+            "creationTimestamp": 1758546139,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2365975ca06f99d5da5Acfc70f2581B8D194f8aa",
+            "name": "Alpha USDC Core",
+            "creationTimestamp": 1753508111,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x239f77CaFfF6d2E5F2FCd2E616b1a299FF161Fa6",
+            "name": "\"Test Term USDC 2\"",
+            "creationTimestamp": 1751571713,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x244C7Aa5224aB2344bAb3CBCa150438FAE3f78F0",
+            "name": "UnblockEquity TLC \u2014 Breathing Room 6",
+            "creationTimestamp": 1771736935,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x25e5c0700F553b0741B2283DD5A868976951ab13",
+            "name": "V1VaultYTest",
+            "creationTimestamp": 1769012863,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x291D8050ab47E81204bf380EC9C40780c0cACe11",
+            "name": "Basils Vault",
+            "creationTimestamp": 1734005785,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2C945DfC6D32c8A8158510F81A0d0d0001d110b4",
+            "name": "USDC Test",
+            "creationTimestamp": 1762421531,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2d0bcFEBb18dA6F8AAfDA654dc4113D7492088AE",
+            "name": "Keelat USDC Vault V2",
+            "creationTimestamp": 1767884021,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2d219a3701690ba7F9C75A31041dca1b0a66815c",
+            "name": "testvault",
+            "creationTimestamp": 1758624295,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2d6fF0c99DE372f00Cb78f91Ae251d39906F19c6",
+            "name": "tv2hr5o0xrals",
+            "creationTimestamp": 1758717275,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2f6b643468A025F8Ae0F81A9615737c3Ff61E14F",
+            "name": "testusdc",
+            "creationTimestamp": 1745795973,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x2fa8259754Cf99aA14C1B2EAC252e6B6dcBF213e",
+            "name": "test-vault-xyz",
+            "creationTimestamp": 1758685181,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x305E03Ed9ADaAB22F4A58c24515D79f2B1E2FD5D",
+            "name": "Spark USDC Vault",
+            "creationTimestamp": 1732472991,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x305a22602d0f6BCd14aDcC59555A36b0c9c3d76d",
+            "name": "testMetaMorphoUSDC",
+            "creationTimestamp": 1721140391,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x30a2eF7b48a20ee21401B064c3817b1e82711BA3",
+            "name": "xK",
+            "creationTimestamp": 1758540871,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x30b5b9D6F143C5FDBBB5b73cd6d88A798Eb50E36",
+            "name": "\"Test Term USDC 1\"",
+            "creationTimestamp": 1751565053,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x3217b17847c8005f3c68d02f64D2a64370D35B3c",
+            "name": "UnblockEquity TLC \u2014 Standard",
+            "creationTimestamp": 1771736929,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x32285fc9182e7548D3A465fEFc210cbd831BEDd8",
+            "name": "tvzku3s3d4lg",
+            "creationTimestamp": 1758716921,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x322b3d895EBd745ff08Ebfd367Ee96b87830AA72",
+            "name": "MORPHO MetaMorpho",
+            "creationTimestamp": 1782763667,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x3299734E76534bD0b57F4FC45c86d7FB7B928fDa",
+            "name": "Low Risk USDC Base",
+            "creationTimestamp": 1762826685,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x32ed54E24F0B00F2de08b9c34E50Db8Aef4A6706",
+            "name": "Spark USDC Vault",
+            "creationTimestamp": 1732470331,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x349F63945c089f1c53075D14d8c451D52ac26299",
+            "name": "tv4",
+            "creationTimestamp": 1758783759,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x34E405d672f17bD5Cd2E54c6CeEF2DCf51CAb7AE",
+            "name": "Safe USDC",
+            "creationTimestamp": 1761598033,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x35303300E2d9D2A3b2b822f72480496b0CC391Ba",
+            "name": "v1 usdc",
+            "creationTimestamp": 1761017461,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x35f49B9443862d667c39673258a7F026F511C5f5",
+            "name": "TestUSDcVault2",
+            "creationTimestamp": 1734947391,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x3618a5A1B88E3e66cdAbBBb614eDCd590f8D0D29",
+            "name": "DELETE",
+            "creationTimestamp": 1763591987,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x363089a33336Da246aF7fEeD5f2F1158Ce2cf552",
+            "name": "testVault",
+            "creationTimestamp": 1761935003,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x3743a36acdCAb10A08Dda6418131cD3Bf4a1b368",
+            "name": "RWA RWA RWA",
+            "creationTimestamp": 1774636213,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x39265eB55e915789Ccd106A8AEa3aBBD411d8407",
+            "name": "0xDataWolf PeePeePooPoo",
+            "creationTimestamp": 1762868615,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x39B62ebF77e839aFB986aE96AD7D6f00806fD4E2",
+            "name": "Prime Testing USDC",
+            "creationTimestamp": 1750076817,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x3CD9EAC7A7D38793a919b3dCc35502788e74538b",
+            "name": "Philly Philly v1",
+            "creationTimestamp": 1767379343,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x407fb14610d1de1B55DDa28FA914dB39f53A6dDe",
+            "name": "Rafael Fresh",
+            "creationTimestamp": 1769590219,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x410Eb011542FE96A822c29FB0d4A26D8135b5084",
+            "name": "Yearn USDC",
+            "creationTimestamp": 1734637467,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x41C539f7Ae746312b9BDf6C875dbF95A8299E722",
+            "name": "Yakov's Dream Charity",
+            "creationTimestamp": 1749621083,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x429b4d4eEEda1de0efe0B676297B849430cEb2C4",
+            "name": "Prosharky Security-Audited USDC",
+            "creationTimestamp": 1776478399,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x42Cecd40ACd47E7e68e67F82415b6f3DaBB0D445",
+            "name": "Architect F Cap Tactical N",
+            "creationTimestamp": 1763598773,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x43132f06F14358F8c180b61D2F0CF33Dc539aE5D",
+            "name": "god mode USDC",
+            "creationTimestamp": 1745608553,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x4432Db42062A338aA17553D5AB828C1D8BD8d3e7",
+            "name": "test-v1-vault-usdc",
+            "creationTimestamp": 1756213625,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x460Fc07e23c731424B2eCF6264C50dE5C164519b",
+            "name": "Idle Liquidity",
+            "creationTimestamp": 1751028875,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x49104e0325f613eB372D11F3DE7E9B804FdDC1Be",
+            "name": "test_kg_v1",
+            "creationTimestamp": 1768421205,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x492a8287CC32110e1cCB0c8A41c1cCC29c657C36",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768406977,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x4B145097A3AC22C091E4091Eae66Ec97f20E9247",
+            "name": "Ring Prime USDC",
+            "creationTimestamp": 1762436205,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x4c1503Ac248c7e7227eED7fe871090AE43773E72",
+            "name": "REIT Ciclo Nova USDC Vault",
+            "creationTimestamp": 1781128163,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x50393daFf5d36B32EF7c43039a361148d0D2b454",
+            "name": "tvq5ocq29xd0r",
+            "creationTimestamp": 1758720293,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x50611C24A518a0b19Bde4f4C5f9Fd1Ca0678C38f",
+            "name": "TESTUSDX-BC",
+            "creationTimestamp": 1754945371,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x50e038007302fC1655697522B7bCAEd5422003DA",
+            "name": "Spine RWA Potential Vault",
+            "creationTimestamp": 1774635647,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x523bce930C50D45beBdB78ffA4eCc0D2D6AfB989",
+            "name": "Nummus USDC",
+            "creationTimestamp": 1743876607,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x546d66d1b8C95a3e2459a9D93989Aa57910801aD",
+            "name": "Rafael Vault v1",
+            "creationTimestamp": 1768487773,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x54a11912610243039E37ea5BA564C13628433D24",
+            "name": "tv3",
+            "creationTimestamp": 1758781643,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x55Eb45a07fD7677c6eD6F8fA83a081608dAdE2a8",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768257861,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x564d1357b05b4397C292991d553f667bd43c08C8",
+            "name": "Morpho Test MetaMorpho",
+            "creationTimestamp": 1782760677,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x584b9C250d05B85155CA80155a4B5335422543D9",
+            "name": "xxjsdss",
+            "creationTimestamp": 1758546161,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x586D8a1a7254607E79be7BE81e0E17b83BB1aF69",
+            "name": "Anzen Boosted USDC",
+            "creationTimestamp": 1729497955,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x5a9d02219Be7dEF2d4a324CBA3449911c28D3999",
+            "name": "Supersafe USDC",
+            "creationTimestamp": 1749143251,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x5fC0b28f42253aFd0b7b0DE798024357e97c1436",
+            "name": "Morpho test 2 MetaMorpho",
+            "creationTimestamp": 1782772829,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x60220D455323eC226a22932f88c7E8918b214218",
+            "name": "vault40",
+            "creationTimestamp": 1758791287,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x607400098f7b9BcE8dFDbb80054bD9d6137BF3C2",
+            "name": "Personal USDC Vault",
+            "creationTimestamp": 1773403187,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x60AFBd4B5BA4Abb6d3341a91eaD3Ed1857800353",
+            "name": "Mesa USDC",
+            "creationTimestamp": 1758981057,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x61A8F695a70006b68575f8807be23D4f8b3216df",
+            "name": "SageFlow USDC Lite",
+            "creationTimestamp": 1741282463,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x634AEB2e230E6D22cce80f4572436B0bc381103D",
+            "name": "v0",
+            "creationTimestamp": 1733256115,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x639cFB7f543ae9820a3B63e88838fE9570ad4D72",
+            "name": "Basta Vault",
+            "creationTimestamp": 1755151719,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x64418b3D2c8514488F6aB47f47416AE6D44b008d",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768575189,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x65A3496756C169D68a81d33cA8aB0CdC514Eb78a",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768406129,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x6613941C57F33F8B189162071185Bd1ED0d3BbCd",
+            "name": "Aragon Managed USDC Vault",
+            "creationTimestamp": 1767984619,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x6649D46529De661Ec1E4eB5a18866f15888d7D88",
+            "name": "Secure USDC",
+            "creationTimestamp": 1747392739,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x668bBD1efaa6A53AeD3f4D55403D0870FAb251b5",
+            "name": "tvz6ks8cfxw4",
+            "creationTimestamp": 1758721789,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x6AdaF5D4EB094Dc70e6F2c888AC411b05e1635E6",
+            "name": "Cozy USDC",
+            "creationTimestamp": 1764018299,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x70060915c9e1332E3D133e36Ed2B59FE1B18B501",
+            "name": "Pocky's High Yield USDC 2 - Personal Vault",
+            "creationTimestamp": 1770929713,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x7023a13aefdd9169f1C162ae2779A215f1cff1c0",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768426461,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x708e07409393269b255750559A305624c89c25cF",
+            "name": "\u6f14\u5531\u4f1a",
+            "creationTimestamp": 1752247387,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x7B9A6d04c440fe5E148cbd89924c48BAb09D35de",
+            "name": "wUTXO BTC Yield Vault",
+            "creationTimestamp": 1779247923,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x7Ee501D69fA416Fe8281335EAB3677ee4AAAb3Ec",
+            "name": "vault38",
+            "creationTimestamp": 1758791115,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x7b08aD94eBa21172c9D857eB19Ee8808Fa2BDd0a",
+            "name": "VL",
+            "creationTimestamp": 1761823239,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x7dB0AF29CE0b830419B1E3bE191afcaE35109C8C",
+            "name": "xs",
+            "creationTimestamp": 1758540921,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x80291A3BA3D48D003c6939a383FCF37755662f60",
+            "name": "lamavault01",
+            "creationTimestamp": 1762636623,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x81478F129D5E034E4dF0F17a67c98242A4951020",
+            "name": "Jarvis USDC",
+            "creationTimestamp": 1748618423,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x82D8d67a2227708eeA0f553F55865C74Eb99eBAc",
+            "name": "tv4wf1spjzg88",
+            "creationTimestamp": 1758718805,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x858d76b324A99698F4b323650364163195a97869",
+            "name": "USDC",
+            "creationTimestamp": 1758538665,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x8833cB53E449665274B6EAF0e19Ffa9d529D69B0",
+            "name": "ccVaulty",
+            "creationTimestamp": 1768380901,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x893c4FbF409Eb6CdB56834309761f9997Ac2Df9F",
+            "name": "Managed Yield Vault",
+            "creationTimestamp": 1741534145,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x8B99ba81053b58262E165CA4BD347A4395E48f2E",
+            "name": "test_11_v1",
+            "creationTimestamp": 1768248405,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x92A075CdB294c79e7A2C50826a14B99597c5C016",
+            "name": "S&P500 for USDC",
+            "creationTimestamp": 1762371955,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9440a44E6658F52B20095e641dc00a7DA37983FF",
+            "name": "Henk Industries",
+            "creationTimestamp": 1756682823,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x953C779E41464eC312148c4c52835AcAA22216F0",
+            "name": "USDC-kyoyo",
+            "creationTimestamp": 1762509005,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x95F3F0C5e53B325b7E5eB342df9C508fC384c35d",
+            "name": "Blend USDC",
+            "creationTimestamp": 1742348801,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x966108C8Bf93f1Ed0D6a0F70804D0fE2Cb7056be",
+            "name": "USA",
+            "creationTimestamp": 1758539091,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9810Ad4E48E0fe1533fE9f35F6BB1237339167e1",
+            "name": "Test-vault",
+            "creationTimestamp": 1745415065,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9936d5885E687546b07e7630994d41F0FA26DFDD",
+            "name": "t3st MetaMorpho",
+            "creationTimestamp": 1783382155,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9971Cc1eA379AA030f930e8FB62888f245E0a71b",
+            "name": "UnblockEquity TLC \u2014 Breathing Room 3",
+            "creationTimestamp": 1771736933,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9D1BE4c1f4e93C8Dc620D26e16614706dB0fB108",
+            "name": "testVault",
+            "creationTimestamp": 1761934597,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9Ec9DD27f328A728ED6b2668681B4C3445fED4f7",
+            "name": "KedaoUsdc",
+            "creationTimestamp": 1763087421,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9F71292c1d8dbaC1Be75D7A8b198443eC28140f1",
+            "name": "SageFlow USDC Prime",
+            "creationTimestamp": 1741282403,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9F90A9d1D1a1dEe6ADf16Bb958ED4Dd6107321fa",
+            "name": "MaxEarn USDC",
+            "creationTimestamp": 1736847899,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9FDe43beC7be489a6D6833a383EF1df3852AF701",
+            "name": "test usdc vault",
+            "creationTimestamp": 1755196943,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9a1e1cB58Db7a70d58DcF1352F3D56d392BE7d8C",
+            "name": "1",
+            "creationTimestamp": 1758079793,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9d6710ce3D883da33A0Eb88d7415E1759344f0e8",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768427581,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9d756364C777777879bc6120a3adB922Eca52aCc",
+            "name": "Zenith cbBTC/USDC Vault",
+            "creationTimestamp": 1781624801,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9dEB8a31b87908C7fba0C730Db59F369C05c126f",
+            "name": "Cozy USDC",
+            "creationTimestamp": 1764023507,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0x9fA6f161D1e530591E6f6BA04372204F0373aAFb",
+            "name": "GVault",
+            "creationTimestamp": 1771588313,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xA4e4eC662CA8AA3d759123670CeB6918209e1EDe",
+            "name": "OP USDC 2",
+            "creationTimestamp": 1737410191,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xA6e6546b50b6b1b7e0cF97fA6C2636901B447cB2",
+            "name": "Testing vault",
+            "creationTimestamp": 1755230209,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xAC942A21aFf1632dFfE1CD7F51423cB9ff57c3D6",
+            "name": "tviytm6o5wf5h",
+            "creationTimestamp": 1758717229,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xAaC37E1FF0ba2dd84d3e3Db813F72fe13Ec66e63",
+            "name": "Master Vault",
+            "creationTimestamp": 1754993157,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xAd0A683977d026B78cC3097e2d0F38A14d77BF91",
+            "name": "Hodler USDC Yield",
+            "creationTimestamp": 1763413619,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xB9dDDCDB1850d54127D61479c0BF24e2cC1C9234",
+            "name": "Sovereign Treasury Yield Vault",
+            "creationTimestamp": 1771773881,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xBbEAb58fF0fB74371eFc6126C6935271D3744145",
+            "name": "Elixir Capital USDC",
+            "creationTimestamp": 1734938129,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xBdd964eC8c11f352a2119f855ED7E8984340B77C",
+            "name": "Test_2",
+            "creationTimestamp": 1760974905,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xBfD43829aBAC6482658Bd2A8099a0fAC787937eA",
+            "name": "USCA",
+            "creationTimestamp": 1758539015,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xC140F79d6757ce71f1fBcc01596D9E34312636aA",
+            "name": "eskUSDC",
+            "creationTimestamp": 1766073453,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xC30b13a402E4552bF9b37dDc329a10187a9bd368",
+            "name": "test USDC",
+            "creationTimestamp": 1758456107,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xC552d3c402942fb0FeC50d0544E70a7C77778d45",
+            "name": "Elara-Test-Vault",
+            "creationTimestamp": 1749115967,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xCA46b019e4e0F94Fa9A10658Bfc7bf8284A822c1",
+            "name": "tv1yslj37c4hji",
+            "creationTimestamp": 1758716945,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xCC4ed4425Df7966AA080F56d287279c0a4f73323",
+            "name": "Northlake USDC 406118",
+            "creationTimestamp": 1780724127,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xCC5881676a6BdcEd2bbDb98f103e87e51630E135",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768315615,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xD493705CaF2EDA2A1fc670243847BFB8D8ed7439",
+            "name": "test vault",
+            "creationTimestamp": 1773951607,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xD5ECD0e19126ADA97aC09F5a19Fe1844979dd71c",
+            "name": "Remi's Test (Long Title Name)",
+            "creationTimestamp": 1763394479,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xD6a99D3aA32d94AbaCaD472E9692C5f39bBF47d1",
+            "name": "Morpho test MetaMorpho",
+            "creationTimestamp": 1782769849,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xD7F3671eAcA86Af5faC017d353C3C80ECE4B199d",
+            "name": "TestUSDcVault3",
+            "creationTimestamp": 1742307031,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xDc993d6A15123D094a63194C3f4DAc6e29F0dd50",
+            "name": "Basil Test 2",
+            "creationTimestamp": 1734006811,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xDce900b928551AB3436A67501cF9Be88E0D7BDEa",
+            "name": "vault39",
+            "creationTimestamp": 1758791233,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xE40AE949b2fdA4185D72DCf48718cA463800AC41",
+            "name": "USDC Stable Vault",
+            "creationTimestamp": 1761564823,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xE418FCa87f28F3C1bd30dFeb4422B20a12850A8f",
+            "name": "tvbkkzpt505pp",
+            "creationTimestamp": 1758716961,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xE531dA9BeE2965aC06Ca4ce93ef514a0D0200D29",
+            "name": "Vault-Tec Live Demo",
+            "creationTimestamp": 1770246123,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xE56EfFDaCBA30CF13F62DF55146E079d07EBd48a",
+            "name": "RIMU USDC",
+            "creationTimestamp": 1750605407,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xE94f40E91015f60B12F354C700e682f15E7F436C",
+            "name": "Iron USDC ",
+            "creationTimestamp": 1762679645,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xEa7900d93Ef84Bb8b37382d07dA65f9A26d7272e",
+            "name": "Nova Curated USDC",
+            "creationTimestamp": 1782259123,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xEfD70270CCCaeF65D99E6Aaf6Fb5c864dc0CEDFF",
+            "name": "GW7B-quote-\"<tag>",
+            "creationTimestamp": 1783341229,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xFCc42Ca564BD21283571a6FA6549E612D7ca8269",
+            "name": "tvbp0fnnv8m0i",
+            "creationTimestamp": 1758717449,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xFdA6d373932414666aFC0dBd23d6857D43465cD9",
+            "name": "Safe Test",
+            "creationTimestamp": 1757430605,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xa11856491C5B587503bb1d65C8fd087438fB1bEb",
+            "name": "Test Base USDC",
+            "creationTimestamp": 1759946807,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xa1D946656a06bB0E6eE6172d96d33DF7f340Cb4B",
+            "name": "Cash Carti v2",
+            "creationTimestamp": 1764660735,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xa44898cC162570a7Fd7F35DB8B4F6ED937e71784",
+            "name": "SA",
+            "creationTimestamp": 1758539453,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xaC0fF485e31C70CA0ac8E348a2F898Ba25D9Eea8",
+            "name": "LucidlyFi USDC",
+            "creationTimestamp": 1763016047,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xaE9A357cFdb6Af6fc4DAe434c4538985B4F12F94",
+            "name": "RNADO2",
+            "creationTimestamp": 1788351751,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb0D31647D251FEF6A49F934ABf841470e3cb714E",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768428181,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb3D4889b68f571596A779Ef1BD04D39d6E03ABFD",
+            "name": "Morpho Test MetaMorpho",
+            "creationTimestamp": 1783983789,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb45832f5FD63dD9fBEAa85eFDed05ccf034f35e5",
+            "name": "Test Vault USDC 1",
+            "creationTimestamp": 1748273007,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb724948d4D2CCFEaAB3E39809a9D34039133b731",
+            "name": "USDC-Micho",
+            "creationTimestamp": 1768920975,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb8917cE9374e33ef8e0399F10481392d51884A9f",
+            "name": "vault37",
+            "creationTimestamp": 1758790875,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb89b0b01e892a98775DE8ae110b01A59E796F34F",
+            "name": "sus1",
+            "creationTimestamp": 1743707871,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xb9A7f5B8387f0c96525E266Da7ad0301949B4727",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768376665,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xc0F5F0a07bc4825f18200BbDc5aA1FbD58cC7473",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768484149,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xc34AD861Ebe7486AdFC965ea2104175E774ac76B",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768425899,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xc8964c47f7284d61DEf2124DcfEA8faC63c519F2",
+            "name": "SA",
+            "creationTimestamp": 1758539387,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xcDa25c2f8a15173CE35680975D5388A4dBb0f33D",
+            "name": "NTT Vault",
+            "creationTimestamp": 1747103641,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xcF21679d85dc6588203FF576fc799b78957B451b",
+            "name": "ElFlanUSDC",
+            "creationTimestamp": 1760108317,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xca852a984787268f17feae7507aeD0C39804EF50",
+            "name": "Base Vault Token",
+            "creationTimestamp": 1768315103,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xd94E1f298B38F96f45005A048551339c0Fffef5f",
+            "name": "Dream Charity - USDC",
+            "creationTimestamp": 1747401015,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xdFF60F336a115aade8d9051E068FD4aeeeCCa901",
+            "name": "Kvass USDC",
+            "creationTimestamp": 1729425509,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xdc427d67e937640EEc4Cc5ccA74895Ff2D3DA577",
+            "name": "UnblockEquity TLC \u2014 Breathing Room 12",
+            "creationTimestamp": 1771736937,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xe49101A8Aed751522feeA378DC793077Cf06208F",
+            "name": "New USDC T",
+            "creationTimestamp": 1749522507,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xe4a339542E6579fCFF022a1bdDe467c5AC93A62d",
+            "name": "Crypto Fi",
+            "creationTimestamp": 1762958003,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xe4f42F0d30704f9828561800c1E6b613618d59c1",
+            "name": "SageFlow USDC Core",
+            "creationTimestamp": 1741282445,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xe5C2C2124218b43dBFE7127CF7e596a6C563b046",
+            "name": "Anvil Test Vault 1",
+            "creationTimestamp": 1768259583,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xe7E0FC1F9d1fA6f176BCbb5F89465A03fa3fF75a",
+            "name": "Paper Yield",
+            "creationTimestamp": 1765951445,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xe80dFECea45b9FF399F6b9Dd0c01B430c62e988d",
+            "name": "tv6wvymheuhfb",
+            "creationTimestamp": 1758717979,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xeC8F9fbA803Fd25e3E7E850874A63Bb7cC2b5dF4",
+            "name": "xsds",
+            "creationTimestamp": 1758541045,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xeCE20f4083E043d16afA78451067ef3dAd201F9F",
+            "name": "Krypital USDC Vault",
+            "creationTimestamp": 1730167785,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xec0Db3e0653fa2B804aB5Ba0eF55bf4F2A1af69C",
+            "name": "tvb55hrwgya6",
+            "creationTimestamp": 1758721441,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xf3e8C172ff76fAd9bD5225E23a198556888e6911",
+            "name": "SK",
+            "creationTimestamp": 1758540723,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xf488838bFCD9943DFD58670B8f53Be2ff6153b37",
+            "name": "Quake USDC",
+            "creationTimestamp": 1741032955,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xf634F82D21db8F54F4Fc76395Da54a948CF5F16A",
+            "name": "testMetaMorpho",
+            "creationTimestamp": 1737865189,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xfB54A0EB0A5c10B85AE268618529bED4D20BeFf4",
+            "name": "morpho MetaMorpho",
+            "creationTimestamp": 1782764545,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          },
+          {
+            "address": "0xfd03b1890D6c31Bf1e15346b9B0b16daf6f2Ba36",
+            "name": "Test_1",
+            "creationTimestamp": 1760973431,
+            "listed": false,
+            "asset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "state": {
+              "totalAssets": 0,
+              "totalAssetsUsd": 0
+            }
+          }
+        ],
+        "pageInfo": {
+          "count": 360,
+          "countTotal": 360
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 155000,
+      "maximumComplexity": 1000000
+    }
+  }
+}

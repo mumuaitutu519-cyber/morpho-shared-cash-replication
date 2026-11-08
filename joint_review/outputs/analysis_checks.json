@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "historical_dates": 439,
+  "vault_dates": 4390,
+  "integer_inequalities": true,
+  "S_equals_W_states": 4390,
+  "maximum_S_W_gap_micro": 0,
+  "joint_requests": [
+    {
+      "request_pct": 5,
+      "dates": 439,
+      "all_individual_pass": 413,
+      "joint_budget_excluded": 0,
+      "excluded_pct_of_passed": 0.0,
+      "excluded_pct_all_dates": 0.0,
+      "median_gap_request_pct": null,
+      "not_excluded": 413,
+      "median_gap_usdc": null,
+      "max_gap_usdc": null,
+      "mean_gap_usdc": null
+    },
+    {
+      "request_pct": 10,
+      "dates": 439,
+      "all_individual_pass": 353,
+      "joint_budget_excluded": 6,
+      "excluded_pct_of_passed": 1.6997167138810199,
+      "excluded_pct_all_dates": 1.366742596810934,
+      "median_gap_request_pct": 1.2454707981458715,
+      "not_excluded": 347,
+      "median_gap_usdc": 847808.3321465,
+      "max_gap_usdc": 3623207.223549,
+      "mean_gap_usdc": 1150630.5757828334
+    },
+    {
+      "request_pct": 25,
+      "dates": 439,
+      "all_individual_pass": 81,
+      "joint_budget_excluded": 62,
+      "excluded_pct_of_passed": 76.54320987654322,
+      "excluded_pct_all_dates": 14.123006833712983,
+      "median_gap_request_pct": 28.711038117019882,
+      "not_excluded": 19,
+      "median_gap_usdc": 55331574.9890345,
+      "max_gap_usdc": 120344273.192597,
+      "mean_gap_usdc": 56648625.653216824
+    }
+  ],
+  "cross_vaults": 10,
+  "positive_common_market_vaults": 9,
+  "persistence": [
+    {
+      "phase": "after",
+      "observed": 17,
+      "changed_shares": 0,
+      "unchanged": 17,
+      "gains": 17,
+      "full_request_covered": 1,
+      "median_gain_usdc": 1339230.192851
+    },
+    {
+      "phase": "one_hour",
+      "observed": 17,
+      "changed_shares": 0,
+      "unchanged": 17,
+      "gains": 17,
+      "full_request_covered": 3,
+      "median_gain_usdc": 1333060.597321
+    },
+    {
+      "phase": "six_hours",
+      "observed": 17,
+      "changed_shares": 0,
+      "unchanged": 17,
+      "gains": 17,
+      "full_request_covered": 3,
+      "median_gain_usdc": 1378979.406
+    },
+    {
+      "phase": "one_day",
+      "observed": 17,
+      "changed_shares": 5,
+      "unchanged": 12,
+      "gains": 11,
+      "full_request_covered": 0,
+      "median_gain_usdc": 747474.013571
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS_DESCRIPTIVE_BENCHMARK",
+  "observations": 138,
+  "common_weekly_dates": 46,
+  "first_date": "2025-01-16",
+  "last_date": "2025-11-27",
+  "complete_asset_reconciliations": 138,
+  "null_position_observations": 596,
+  "null_handling": "No point imputation; zero aggregate residual from nonnegative positions and exact vault-asset reconciliation",
+  "focal_claim_fraction_median_pct": 93.4361968600005,
+  "focal_api_asset_gap_micro_range": [
+    4736,
+    1525132
+  ],
+  "focal_benchmark_vs_contract_capacity_gap_micro_range": [
+    0,
+    0
+  ],
+  "focal_quarter_classification_disagreements": [],
+  "summary": {
+    "spark": {
+      "name": "Spark USDC Vault",
+      "weekly_dates": 46,
+      "median_assets_million": 378.0013436669995,
+      "median_common_market_share_pct": 64.45754168787198,
+      "median_funded_markets": 1.0,
+      "median_largest_market_pct": 100.0,
+      "median_portfolio_utilization_pct": 90.03842594302844,
+      "median_cash_to_assets_pct": 16.080158833218125,
+      "median_normalized_capacity_pct": 19.314232212523248,
+      "quarter_claim_cash_shortfall_dates": 36,
+      "longest_consecutive_weekly_shortfalls": 28,
+      "null_position_observations": 77
+    },
+    "moonwell": {
+      "name": "Moonwell Flagship USDC",
+      "weekly_dates": 46,
+      "median_assets_million": 34.1078225732435,
+      "median_common_market_share_pct": 8.511087940970324,
+      "median_funded_markets": 1.0,
+      "median_largest_market_pct": 100.0,
+      "median_portfolio_utilization_pct": 90.03626536933109,
+      "median_cash_to_assets_pct": 99.99637206497873,
+      "median_normalized_capacity_pct": 100.0,
+      "quarter_claim_cash_shortfall_dates": 0,
+      "longest_consecutive_weekly_shortfalls": 0,
+      "null_position_observations": 16
+    },
+    "gauntlet": {
+      "name": "Gauntlet USDC Core",
+      "weekly_dates": 46,
+      "median_assets_million": 5.477304254853,
+      "median_common_market_share_pct": 0.7871865219669008,
+      "median_funded_markets": 9.0,
+      "median_largest_market_pct": 73.17894124767676,
+      "median_portfolio_utilization_pct": 89.71428213961096,
+      "median_cash_to_assets_pct": 85.73833910076002,
+      "median_normalized_capacity_pct": 91.29164864003894,
+      "quarter_claim_cash_shortfall_dates": 1,
+      "longest_consecutive_weekly_shortfalls": 1,
+      "null_position_observations": 503
+    }
+  },
+  "input_sha256": {
+    "reports/revision6/withdrawal_capacity.csv": "683443d3beb43b6e620befd174230c028e2cbe8cf1125b0ba5d0ed108256e3dd",
+    "reports/revision17/quarter_withdrawal_execution.csv": "0700e24c58d4e0d77e32915170bcf2e04c0762d3538f8e6dd3502ce43c95032a",
+    "reports/revision5/market_economic_events.parquet": "8f20f2418f35339ad313cfa6ad7d86b40ba4e4812415dc7bcafb109fa307d5f0",
+    "reports/revision18/PLAN.md": "0fe424f762c1227288c7b0fc78747227e9d6c82488a0782de56e5f94c432bc0d",
+    "data/raw/revision18/spark_history.body": "9d1d9674f389b20915bc31f712db20f085f7e9d0fa8028668de2404ee45765b5",
+    "data/raw/revision18/moonwell_history.body": "49ef3a41f2a05724b69ceb757997bad25e99cbc1c177563255f109065c3d3032",
+    "data/raw/revision18/gauntlet_history.body": "8cdf5f3c556f1082652003ef3dc9e2746108d3131a24bf0cc4e7d71eaecc6124",
+    "data/raw/revision18/peer_metadata.body": "448fa0e366ffe90ce677c367e127241e634669f88a6dbb1c2471793b54fe1987"
+  },
+  "limits": [
+    "Three selected vaults, not a representative sample",
+    "Peer normalized claim fractions are scenarios, not observed peer owners",
+    "Cash is shared across vaults: separate capacities cannot be added",
+    "Weekly observations do not establish daily spell duration",
+    "Portfolio utilization and concentration differ; no causal or risk-adjusted comparison",
+    "No management response, later repayment, competing withdrawal, run probability, or CCTP effect"
+  ]
+}

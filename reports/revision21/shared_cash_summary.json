@@ -1,0 +1,69 @@
+{
+  "weekly_dates": 46,
+  "duplicate_positive_dates": 46,
+  "separate_million": {
+    "min": 24.65870505745,
+    "p25": 40.5561500309695,
+    "median": 92.14712178334051,
+    "p75": 150.04412299525,
+    "p90": 162.08496156328602,
+    "p95": 165.77636972478024,
+    "max": 168.797995755121
+  },
+  "joint_million": {
+    "min": 10.680503882225,
+    "p25": 20.4836344422915,
+    "median": 50.635177404575,
+    "p75": 88.09673967057775,
+    "p90": 104.469146383083,
+    "p95": 107.31271391320774,
+    "max": 109.374649875223
+  },
+  "duplicate_million": {
+    "min": 6.585063405132,
+    "p25": 20.367959455744,
+    "median": 32.647024483498996,
+    "p75": 53.3927152115815,
+    "p90": 70.205562058231,
+    "p95": 78.3267927077255,
+    "max": 83.505068779964
+  },
+  "duplicate_pct": {
+    "min": 10.074456882508803,
+    "p25": 40.53874615916642,
+    "median": 47.636211770178214,
+    "p75": 50.68058282269503,
+    "p90": 52.83388936516554,
+    "p95": 56.35515547466322,
+    "max": 57.97070315508683
+  },
+  "lp_max_error_million": 1.052699971637594e-08,
+  "pro_rata_cash_assets_median_pct": {
+    "spark": 12.025037870909896,
+    "moonwell": 13.009655175481486,
+    "gauntlet": 20.46641891128619
+  },
+  "size_scenarios": [
+    {
+      "scale": 0.1,
+      "median_coverage_pct": 100.0,
+      "quarter_shortfall_dates": 0
+    },
+    {
+      "scale": 0.25,
+      "median_coverage_pct": 77.25692898033338,
+      "quarter_shortfall_dates": 0
+    },
+    {
+      "scale": 0.5,
+      "median_coverage_pct": 38.62846449016669,
+      "quarter_shortfall_dates": 9
+    },
+    {
+      "scale": 1,
+      "median_coverage_pct": 19.314232245083346,
+      "quarter_shortfall_dates": 36
+    }
+  ],
+  "scope": "Selected three vault portfolios, static cash-only allocation upper bound before outside withdrawals; not joint contract execution"
+}

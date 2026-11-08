@@ -1,0 +1,26 @@
+{
+  "events": 94,
+  "transactions": 93,
+  "deposit_micro": "490825769666261",
+  "statuses": {
+    "success": 94
+  },
+  "below_quarter_block_end": 68,
+  "below_quarter_but_deposit_executes": 68,
+  "capacity_to_deposit_min": 1.782922325884389,
+  "capacity_to_deposit_median": 92.80971157647885,
+  "later_transactions_min": 0,
+  "later_transactions_median": 72.5,
+  "later_transactions_max": 408,
+  "last_transaction_events": 1,
+  "events_with_later_relevant_usdc": 11,
+  "events_with_later_common_market_operations": 9,
+  "events_with_later_prepared_vault_operations": 0,
+  "no_observed_following_cash_or_vault_events": 83,
+  "state_boundary": "Final state of the deposit block. Timestamp equality does not establish transaction-position equality.",
+  "coverage_limit": "Full raw block USDC transfer records plus the prepared common-market and vault event ledgers; not a full trace of every later operation or unlogged configuration update.",
+  "read_only": true,
+  "network_disabled_for_audit": true,
+  "external_independent_replication": false,
+  "execution_controls_verified": 6
+}

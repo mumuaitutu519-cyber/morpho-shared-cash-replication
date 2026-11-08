@@ -1,0 +1,11 @@
+model,spec,Obs,R2,within_R2,clusters_entity,clusters_date,df_p,FE,covariance,slope_equals_one_p,intercept_equals_zero_p,first,last,wild_draws,wild_method,excluded_rows
+mechanism,a_pooled,495,0.999999643282,,93,,92,none,transaction cluster CR1,0.125921532943,0.530145460413,2025-04-03,2025-11-30,,,
+mechanism,b_transaction_FE,495,0.999999715453,0.99999964707,93,,92,transaction,transaction cluster CR1,0.165435370954,,2025-04-03,2025-11-30,,,
+mechanism,c_constrained,17,0.999999444182,,17,,16,none,transaction cluster CR1,0.183226618505,0.568957355005,2025-09-02,2025-10-04,,,
+mechanism,d_constrained_from_2025_04_23,17,0.999999444182,,17,,16,none,transaction cluster CR1,0.183226618505,0.568957355005,2025-09-02,2025-10-04,,,
+joint_budget,gap25,439,0.740945925621,,,,414,year-month + weekday,HAC7 finite-sample correction,,,2025-01-16,2026-03-30,,,
+joint_budget,joint_exclusion25,439,0.434017459373,,,,414,year-month + weekday,HAC7 finite-sample correction,,,2025-01-16,2026-03-30,,,
+joint_budget,J_assets,439,0.740945925621,,,,414,year-month + weekday,HAC7 finite-sample correction,,,2025-01-16,2026-03-30,,,
+joint_budget,gap10,439,0.740945925621,,,,414,year-month + weekday,HAC7 finite-sample correction,,,2025-01-16,2026-03-30,,,
+market_duplication,at_least_2_vaults,3167,,0.190916141805,15,439,14,market + date,two-way cluster CR1,,,2025-01-16,2026-03-30,9999,Monte Carlo seed 20261002,36
+market_duplication,at_least_3_vaults,2020,,0.233248156758,9,439,8,market + date,two-way cluster CR1,,,2025-01-16,2026-03-30,512,exact,16

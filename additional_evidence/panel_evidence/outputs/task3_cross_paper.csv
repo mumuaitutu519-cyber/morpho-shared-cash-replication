@@ -1,0 +1,26 @@
+row,task3_cross_25 / LPM_lag,task3_cross_25 / LPM_no_lag,task3_cross_25 / FE_logit
+D,-0.088010*,-0.319821***,-1.020487*
+D t,(-1.71),(-4.21),(-1.94)
+utilization10,0.012368**,0.045925***,0.158166**
+utilization10 t,(2.30),(5.89),(2.42)
+log_assets,0.001969***,0.005421***,0.037327***
+log_assets t,(2.63),(4.68),(2.84)
+Flow,0.006906*,0.001772,0.054743
+Flow t,(1.91),(0.68),(1.56)
+shared_market_share,-0.014167,-0.055286,-0.173326
+shared_market_share t,(-0.44),(-1.03),(-0.39)
+refused25,0.563969***,,3.216490***
+refused25 t,(9.94),,(8.49)
+Date FE,No,No,No
+Year-month FE,No,No,No
+Weekday FE,No,No,No
+Chain-by-state FE,Yes,Yes,Yes
+Market FE,No,No,No
+Chain FE,No,No,No
+Event-pair FE,No,No,No
+Vault FE,No,No,No
+Obs.,1799,1799,1799
+Clusters,entity:338,entity:338,entity:338
+Within R-squared,0.320123593266763,0.1364211244263,
+Outcome mean,0.116175653140634,0.116175653140634,0.116175653140634
+Pseudo R-squared,,,0.342130449244448

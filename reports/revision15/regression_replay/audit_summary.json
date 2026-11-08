@@ -1,0 +1,96 @@
+{
+  "built_at_utc": "2026-09-29T16:55:24.979494+00:00",
+  "scope": "Review diagnostics, not causal identification or editorial acceptance.",
+  "historical_data_and_result_files_unchanged": true,
+  "protected_hashes": {
+    "tables/table_1_burn_decomposition.csv": "7b96cf297df596374fd7935fe0279efb34dd818c7cf9fafb9043f6c5b7382dbf",
+    "tables/table_2_yearly_decomposition.csv": "32919831912be8178d16de1d08d4a1ac4ed4426ea6fdc0cdb2e38497d1dca5a5",
+    "tables/table_3_pressure_day_reclassification.csv": "6f9701708eac20a3409e21cb137fcb4c4c9632ae30dd22879a077b00cdfdb983",
+    "tables/table_4_regression_estimates.csv": "45cbb409c86281bf262d0114b371e1a518ded5d5387a8fcb37ad0a1253478688",
+    "tables/table_5_coefficient_contrasts.csv": "c971db3c7fcdfee47012a220220f6c3545794c95d2b6944f3c9c3164618b2022",
+    "tables/table_A1_rank_robustness.csv": "1a23b95ef2439a8e4dff25a8d06b1ffd71aea77118e95380f375f6c2c30e4aaa",
+    "tables/table_A2_size_composition.csv": "f0b32338da5ed40c8877fe320989a4b88ff34ef507965707b813c014c9a5a413",
+    "tables/table_A3_daily_summary.csv": "d7bf673045c065365a4a2fd1d15d89d2b6072d7eacab92960e5fe9c7d299b5fe",
+    "tables/table_A4_regression_robustness.csv": "076a897f7b1e591e3bfa3cf68d2514102cf62fc58428b1e586dbdde03db607f0",
+    "tables/table_A5_future_volatility_placebo.csv": "c51bba3d2846923e4b14bea151b9418916d8e696f77a699412662f4a50a6a339",
+    "data/processed/bitstamp_usdcusd_hourly.parquet": "ef4d8d11e059222936d59c306bd59507adf807695327fa9f642835b03ae2efef",
+    "data/processed/coinmetrics_eth_daily.parquet": "251bf93987116f5f6bce8694c83707ad2ce77e09df05202cf8dffda4fef82ba7",
+    "data/processed/daily_burn_decomposition.parquet": "2ecc8475016623f4ce3bfbc55ee0ca907b78847e963d85edb85cefbab68c794c",
+    "data/processed/ethereum_usdc_mintburn_events.parquet": "8cf20fdb026353151bfe0175296d7cc0bdf2df73498e5770fe1bd133e042d3ca",
+    "data/processed/regression_daily_panel.parquet": "b790b73f9e4f0d38621faba7924d5eb55dab12530d737ce5f7f981152fef9e9f",
+    "reports/regression_results.json": "49f496966f277fbb413d07b99df43bbfc76d29bc6e299f25fd85b4170c026b77"
+  },
+  "reproduction_max_abs_errors": {
+    "main": {
+      "estimate": 2.0521778720805628e-15,
+      "se": 9.730063976753911e-15,
+      "p_value": 3.035349749325178e-13,
+      "n": 0.0
+    },
+    "contrasts": {
+      "estimate": 1.3149203947904198e-15,
+      "se": 1.1674688993323912e-14,
+      "p_value": 1.0996759058912176e-13,
+      "n": 0.0
+    },
+    "robustness": {
+      "estimate": 1.3149203947904198e-15,
+      "se": 2.796374243274613e-14,
+      "p_value": 2.0989460169928975e-13,
+      "n": 0.0
+    },
+    "future_sums": {
+      "estimate": 6.96491475604688e-16,
+      "se": 1.222980050563649e-15,
+      "p_value": 1.1343703754107537e-13,
+      "n": 0.0
+    }
+  },
+  "projection_identities": [
+    {
+      "metric": "count",
+      "levels_parameter_identity_max_abs_error": 9.094947017729282e-13,
+      "levels_gap_cctp_se_max_abs_error": 0.0,
+      "ihs_gap_parameter_identity_max_abs_error": 1.7763568394002505e-14,
+      "ihs_gap_not_ihs_cctp_max_abs_difference": 5.841263235336147
+    },
+    {
+      "metric": "value_millions",
+      "levels_parameter_identity_max_abs_error": 2.2737367544323206e-13,
+      "levels_gap_cctp_se_max_abs_error": 3.13337977786432e-09,
+      "ihs_gap_parameter_identity_max_abs_error": 4.440892098500626e-15,
+      "ihs_gap_not_ihs_cctp_max_abs_difference": 6.251732049863621
+    }
+  ],
+  "integer_aggregation_audit": {
+    "gross_burn": {
+      "max_daily_difference_usdc": 2.384185791015625e-07,
+      "threshold_grid_classification_changes": 0,
+      "exact_total_micro_usdc": 268033062193627345,
+      "exact_total_usdc": "268033062193.627345"
+    },
+    "other_native_burn": {
+      "max_daily_difference_usdc": 2.384185791015625e-07,
+      "threshold_grid_classification_changes": 0,
+      "exact_total_micro_usdc": 230353211106054012,
+      "exact_total_usdc": "230353211106.054012"
+    },
+    "cctp_transport": {
+      "max_daily_difference_usdc": 5.960464477539063e-08,
+      "threshold_grid_classification_changes": 0,
+      "exact_total_micro_usdc": 37679851087573333,
+      "exact_total_usdc": "37679851087.573333"
+    }
+  },
+  "v2_decimal_amount_matches": 250,
+  "v2_largest_micro_amount": "10167067245886",
+  "bitstamp_hourly_monotone": true,
+  "baseline_n": 948,
+  "baseline_start": "2023-04-28 00:00:00",
+  "baseline_end": "2025-11-30 00:00:00",
+  "absolute_eth_return_pp_mean": 2.3080947959082914,
+  "absolute_eth_return_pp_sd": 2.4164956647057436,
+  "absolute_eth_return_pp_p25": 0.6298830844675196,
+  "absolute_eth_return_pp_p75": 3.122417151845225,
+  "baseline_zero_residual_count_days": 11
+}

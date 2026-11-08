@@ -1,0 +1,167 @@
+item,paper,reproduced,consistent,raw_difference,reason
+C1 A row 1 Base,10.91,10.91,True,,exact match
+C1 A row 1 Ethereum,12.18,12.18,True,,exact match
+C1 A row 1 Arbitrum,14.86,14.86,True,,exact match
+C1 A row 2 Base,10.70,10.70,True,,exact match
+C1 A row 2 Ethereum,10.58,10.58,True,,exact match
+C1 A row 2 Arbitrum,1.88,1.88,True,,exact match
+C1 A row 3 Base,113,113,True,,exact match
+C1 A row 3 Ethereum,1,1,True,,exact match
+C1 A row 3 Arbitrum,10,10,True,,exact match
+C1 A row 4 Base,11.79,11.79,True,,exact match
+C1 A row 4 Ethereum,11.91,11.91,True,,exact match
+C1 A row 4 Arbitrum,11.35,11.35,True,,exact match
+C1 A row 5 Base,10.43,10.43,True,,exact match
+C1 A row 5 Ethereum,3.13,3.13,True,,exact match
+C1 A row 5 Arbitrum,0.64,0.64,True,,exact match
+C1 A row 6 Base,262,262,True,,exact match
+C1 A row 6 Ethereum,29,29,True,,exact match
+C1 A row 6 Arbitrum,8,8,True,,exact match
+C1 A row 7 Base,0 (11),0 (11),True,,exact match
+C1 A row 7 Ethereum,1 (0),1 (0),True,,exact match
+C1 A row 7 Arbitrum,1 (24),1 (24),True,,exact match
+C1 A row 8 Base,3 (0),3 (0),True,,exact match
+C1 A row 8 Ethereum,91 (0),91 (0),True,,exact match
+C1 A row 8 Arbitrum,61 (0),61 (0),True,,exact match
+C1 B row 1 10% request,313,313,True,,exact match
+C1 B row 1 25% request,15,15,True,,exact match
+C1 B row 2 10% request,0.00,0.00,True,,exact match
+C1 B row 2 25% request,128.02,128.02,True,,exact match
+C1 B row 3 10% request,89.07,89.07,True,,exact match
+C1 B row 3 25% request,15.03,15.03,True,,exact match
+C1 B row 4 10% request,7,7,True,,exact match
+C1 B row 4 25% request,170,170,True,,exact match
+C1 B row 5 10% request,99.98,99.98,True,,exact match
+C1 B row 5 25% request,93.25,93.25,True,,exact match
+C1 B row 6 10% request,88.03,88.03,True,,exact match
+C1 B row 6 25% request,87.30,87.30,True,,exact match
+C1 B row 7 10% request,11.70,11.70,True,,exact match
+C1 B row 7 25% request,10.00,10.00,True,,exact match
+439 daily states,439,439,True,0.0,same stated rounding
+3 chains x 1008 hourly states,3024,3024,True,0.0,same stated rounding
+unique chain-hour keys,0,0,True,0.0,same stated rounding
+daily Dup identity max error <1e-12,True,True,True,,exact match
+hourly JA identity max error <1e-12,True,True,True,,exact match
+hourly Dup identity max error <1e-12,True,True,True,,exact match
+C1 A independently recomputed cells,True,True,True,,exact match
+C1 B independently recomputed cells,True,True,True,,exact match
+Body 10% immediate-payment dates,313,313,True,0.0,same stated rounding
+Body 10% median hours,0.0,0.00,True,0.0,same stated rounding
+Body 10% within24 rounded percent,89,89,True,0.0660592255125323,same stated rounding
+Body 10% censored dates,7,7,True,0.0,same stated rounding
+Body 10% censored share paid rounded percent,100,100,True,-0.02436862413350127,same stated rounding
+Body 10% completing supply share rounded percent,88,88,True,0.025760697889850803,same stated rounding
+Body 10% completing repay share rounded percent,12,12,True,-0.2986040480652363,same stated rounding
+Body 25% immediate-payment dates,15,15,True,0.0,same stated rounding
+Body 25% median hours,128.02,128.02,True,0.0022222222222012533,same stated rounding
+Body 25% within24 rounded percent,15,15,True,0.03416856492027165,same stated rounding
+Body 25% censored dates,170,170,True,0.0,same stated rounding
+Body 25% censored share paid rounded percent,93,93,True,0.24879370214320318,same stated rounding
+Body 25% completing supply share rounded percent,87,87,True,0.2957035944404822,same stated rounding
+Body 25% completing repay share rounded percent,10,10,True,-0.004400752092621474,same stated rounding
+Body W2 1 events,91,91,True,0.0,same stated rounding
+Body W2 1 later-withdrawal percent,93.41,93.41,True,-0.003406593406594993,same stated rounding
+Body W2 1 later-withdrawal rounded percent,93,93,True,0.4065934065934016,same stated rounding
+Body W2 1 median wait hours,0.18,0.18,True,0.0,same stated rounding
+Body W2 42161 events,61,61,True,0.0,same stated rounding
+Body W2 42161 later-withdrawal percent,100.0,100.00,True,0.0,same stated rounding
+Body W2 42161 later-withdrawal rounded percent,100,100,True,0.0,same stated rounding
+Body W2 42161 median wait hours,0.29,0.29,True,0.004722222222222239,same stated rounding
+Body ETH November pre,11.91,11.91,True,0.0,same stated rounding
+Body ETH November min,3.13,3.13,True,0.0,same stated rounding
+Body ARB November pre,11.35,11.35,True,0.0,same stated rounding
+Body ARB November min,0.64,0.64,True,0.0,same stated rounding
+Body ARB October pre,14.86,14.86,True,0.0,same stated rounding
+Body ARB October min,1.88,1.88,True,0.0,same stated rounding
+Body ETH November recovery,29,29,True,0.0,same stated rounding
+Body ARB November recovery,8,8,True,0.0,same stated rounding
+Body JA W1 coefficient,-0.0079,-0.0079,True,1.3526204042900447e-05,same stated rounding
+Body JA W1 percentage points,-0.79,-0.79,True,0.0013526204042899614,same stated rounding
+Body JA W1 t,-3.4,-3.40,True,-0.0035217122236530507,same stated rounding
+Body JA W2 coefficient,-0.0307,-0.0307,True,3.472263373860071e-05,same stated rounding
+Body JA W2 percentage points,-3.07,-3.07,True,0.00347226337385953,same stated rounding
+Body JA W2 t,-2.07,-2.07,True,-0.0020038488513818287,same stated rounding
+Body OLS Util t/z,2.03,2.03,True,-0.0023605054306412576,same stated rounding
+Body OLS Dup t/z,1.14,1.14,True,0.003646116262574939,same stated rounding
+Body Cox_month_strata Dup t/z,-1.72,-1.72,True,-0.003275339240292663,same stated rounding
+Body largest-first median 128.02,128.02,128.02,True,0.0022222222222012533,same stated rounding
+Body smallest-first median 132.70,132.7,132.70,True,0.0011111111111290484,same stated rounding
+Body largest-first median rounded 128,128,128,True,0.022222222222211485,same stated rounding
+Body smallest-first median rounded 133,133,133,True,-0.2988888888888823,same stated rounding
+Original Table1 median Dup percent,57.86,57.86,True,0.0035048035242652986,same stated rounding
+Original Table5 25% individual passes,81,81,True,0.0,same stated rounding
+Original Table5 25% joint exclusions,62,62,True,0.0,same stated rounding
+Original Table5 25% exclusion percent,76.54,76.54,True,0.003209876543209589,same stated rounding
+B3 disclosed 25% mismatch days,4,4,True,0.0,same stated rounding
+B3 5% immediate dates,404,404,True,0.0,same stated rounding
+2025-03-11 aggregate-bound insufficiency disclosed,True,True,True,,exact match
+2025-03-11 max-flow less than requested,True,True,True,,exact match
+Resolved events have successor blocks,True,True,True,,exact match
+Successor blocks at/after failed block,True,True,True,,exact match
+Successor waiting-time identity,True,True,True,,exact match
+Censor indicator and paid fraction agree,True,True,True,,exact match
+Censored duration is exactly 168 hours,True,True,True,,exact match
+Zero tau equals complete initial payment,True,True,True,,exact match
+Single-day large_first 10% tau,True,True,True,,saved=0.0; replay=0.0
+Single-day large_first 10% censored,True,True,True,,saved=False; replay=False
+Single-day large_first 10% paid_fraction,True,True,True,,saved=1.0; replay=1.0
+Single-day large_first 10% initial_paid_micro,True,True,True,,saved=35219751634843; replay=35219751634843
+Single-day large_first 10% request_micro,True,True,True,,saved=35219751634843; replay=35219751634843
+Single-day large_first 10% supply_inflow_micro,True,True,True,,saved=0; replay=0
+Single-day large_first 10% repay_inflow_micro,True,True,True,,saved=0; replay=0
+Single-day large_first 10% liquidation_inflow_micro,True,True,True,,saved=0; replay=0
+Single-day large_first 10% clipped_outflow_micro,True,True,True,,saved=0; replay=0
+Single-day large_first 25% tau,True,True,True,,saved=168.0; replay=168.0
+Single-day large_first 25% censored,True,True,True,,saved=True; replay=True
+Single-day large_first 25% paid_fraction,True,True,True,,saved=0.899241270757386; replay=0.899241270757386
+Single-day large_first 25% initial_paid_micro,True,True,True,,saved=40266832468029; replay=40266832468029
+Single-day large_first 25% request_micro,True,True,True,,saved=88049379087116; replay=88049379087116
+Single-day large_first 25% supply_inflow_micro,True,True,True,,saved=73975813145672; replay=73975813145672
+Single-day large_first 25% repay_inflow_micro,True,True,True,,saved=8954414968718; replay=8954414968718
+Single-day large_first 25% liquidation_inflow_micro,True,True,True,,saved=10828141608; replay=10828141608
+Single-day large_first 25% clipped_outflow_micro,True,True,True,,saved=89542814108027; replay=89542814108027
+Single-day small_first 10% tau,True,True,True,,saved=0.0; replay=0.0
+Single-day small_first 10% censored,True,True,True,,saved=False; replay=False
+Single-day small_first 10% paid_fraction,True,True,True,,saved=1.0; replay=1.0
+Single-day small_first 10% initial_paid_micro,True,True,True,,saved=35219751634843; replay=35219751634843
+Single-day small_first 10% request_micro,True,True,True,,saved=35219751634843; replay=35219751634843
+Single-day small_first 10% supply_inflow_micro,True,True,True,,saved=0; replay=0
+Single-day small_first 10% repay_inflow_micro,True,True,True,,saved=0; replay=0
+Single-day small_first 10% liquidation_inflow_micro,True,True,True,,saved=0; replay=0
+Single-day small_first 10% clipped_outflow_micro,True,True,True,,saved=0; replay=0
+Single-day small_first 25% tau,True,True,True,,saved=168.0; replay=168.0
+Single-day small_first 25% censored,True,True,True,,saved=True; replay=True
+Single-day small_first 25% paid_fraction,True,True,True,,saved=0.8735250499151503; replay=0.8735250499151503
+Single-day small_first 25% initial_paid_micro,True,True,True,,saved=39550260759226; replay=39550260759226
+Single-day small_first 25% request_micro,True,True,True,,saved=88049379087116; replay=88049379087116
+Single-day small_first 25% supply_inflow_micro,True,True,True,,saved=73975813145672; replay=73975813145672
+Single-day small_first 25% repay_inflow_micro,True,True,True,,saved=8954414968718; replay=8954414968718
+Single-day small_first 25% liquidation_inflow_micro,True,True,True,,saved=10828141608; replay=10828141608
+Single-day small_first 25% clipped_outflow_micro,True,True,True,,saved=88205806529700; replay=88205806529700
+CSV hash base_daily.csv,26c5b365b4168d8e80be505a363e2b6db5f4bbb807102e38480297a85a6379b7,26c5b365b4168d8e80be505a363e2b6db5f4bbb807102e38480297a85a6379b7,True,,exact match
+CSV rows base_daily.csv,439,439,True,0.0,same stated rounding
+CSV hash hourly_eth_arb_base.csv,0a8dd284d21381e9bfa99008b71878cf5147628ca8c6925c7af8ef5e04bd8e4e,0a8dd284d21381e9bfa99008b71878cf5147628ca8c6925c7af8ef5e04bd8e4e,True,,exact match
+CSV rows hourly_eth_arb_base.csv,3024,3024,True,0.0,same stated rounding
+CSV hash refill_daily.csv,7ffdbd1190174c2d5b6b5c1040f0cf36fb849a7eade5e095a62879d109ec504b,7ffdbd1190174c2d5b6b5c1040f0cf36fb849a7eade5e095a62879d109ec504b,True,,exact match
+CSV rows refill_daily.csv,878,878,True,0.0,same stated rounding
+CSV hash refill_order_check.csv,26438698c8bbdde8eefa06732aac724228153c118c66854d3e422e3841b121e9,26438698c8bbdde8eefa06732aac724228153c118c66854d3e422e3841b121e9,True,,exact match
+CSV rows refill_order_check.csv,2634,2634,True,0.0,same stated rounding
+CSV hash a4_unaffected_panel.csv,c3a92e18163f1697b8ce694eb1dbc866d521df9991692fb9e5a3203178053c1b,c3a92e18163f1697b8ce694eb1dbc866d521df9991692fb9e5a3203178053c1b,True,,exact match
+CSV rows a4_unaffected_panel.csv,72946,72946,True,0.0,same stated rounding
+CSV hash affected_collateral_list.csv,dab07a0839ae87a77e8cfd27dc02fa4dd8a5e8f49284b113113be672839c71c3,dab07a0839ae87a77e8cfd27dc02fa4dd8a5e8f49284b113113be672839c71c3,True,,exact match
+CSV rows affected_collateral_list.csv,14,14,True,0.0,same stated rounding
+CSV hash error_calls_windows.csv,e1e61f311bdce4c4d184b419bda969b756a4a32d72adbcfa1be396c11d17c7ce,e1e61f311bdce4c4d184b419bda969b756a4a32d72adbcfa1be396c11d17c7ce,True,,exact match
+CSV rows error_calls_windows.csv,192,192,True,0.0,same stated rounding
+CSV hash replay_example_vaults.csv,157d1622781203101d981eaada740c75a6058a53e93116133ca6ac7039d1dcae,157d1622781203101d981eaada740c75a6058a53e93116133ca6ac7039d1dcae,True,,exact match
+CSV rows replay_example_vaults.csv,10,10,True,0.0,same stated rounding
+CSV hash replay_example_positions.csv,58546942c45f9d6bd1c81e8851250b386d2669948d2eec54dfa1eca60b999ca6,58546942c45f9d6bd1c81e8851250b386d2669948d2eec54dfa1eca60b999ca6,True,,exact match
+CSV rows replay_example_positions.csv,75,75,True,0.0,same stated rounding
+CSV hash replay_example_market_cash.csv,5d910d00673087a9cb242590d256626efa455bd164a96bb3801159d912b9d48f,5d910d00673087a9cb242590d256626efa455bd164a96bb3801159d912b9d48f,True,,exact match
+CSV rows replay_example_market_cash.csv,33,33,True,0.0,same stated rounding
+CSV hash replay_example_ledger.csv,2dabb277c23d0693dbb31ea13912e3ad38221494b37fc9c8c3149c9669d4e20c,2dabb277c23d0693dbb31ea13912e3ad38221494b37fc9c8c3149c9669d4e20c,True,,exact match
+CSV rows replay_example_ledger.csv,36544,36544,True,0.0,same stated rounding
+Dependency pandas,2.2.3,2.2.3,True,,exact match
+Dependency numpy,2.3.5,2.3.5,True,,exact match
+Dependency statsmodels,0.15.0,0.15.0,True,,exact match
+Dependency lifelines,0.30.3,0.30.3,True,,exact match
+Dependency matplotlib,3.11.2,3.11.2,True,,exact match

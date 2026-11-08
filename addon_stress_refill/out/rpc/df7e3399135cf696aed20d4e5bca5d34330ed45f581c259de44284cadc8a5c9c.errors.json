@@ -1,0 +1,68 @@
+{
+  "chain": 1,
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x1676514",
+      false
+    ]
+  },
+  "attempts": [
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "attempt": 1,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:56:51Z"
+    },
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "attempt": 2,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:56:53Z"
+    },
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "attempt": 3,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:56:57Z"
+    },
+    {
+      "url": "https://mainnet.gateway.tenderly.co",
+      "attempt": 4,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:56:58Z"
+    },
+    {
+      "url": "https://mainnet.gateway.tenderly.co",
+      "attempt": 5,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:57:00Z"
+    },
+    {
+      "url": "https://mainnet.gateway.tenderly.co",
+      "attempt": 6,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:57:04Z"
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "attempt": 7,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:57:05Z"
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "attempt": 8,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:57:07Z"
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "attempt": 9,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "utc": "2026-10-13T23:57:11Z"
+    }
+  ]
+}

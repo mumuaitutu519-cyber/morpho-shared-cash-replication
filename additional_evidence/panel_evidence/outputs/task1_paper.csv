@@ -1,0 +1,33 @@
+row,task1 / 1a,task1 / 1b,task1 / 1c,task1 / 1d
+OwnFlow,0.636742***,0.645295***,,-0.000006
+OwnFlow t,(4.67),(4.75),,(-0.04)
+OtherVaultFlow,0.185079***,-0.029100,-0.000004,-0.000089
+OtherVaultFlow t,(7.62),(-0.38),(-1.57),(-0.52)
+OutsideFlow,0.227719***,0.226440***,0.000006,-0.000200
+OutsideFlow t,(33.94),(41.37),(0.98),(-1.36)
+BorrowFlow,-0.394488***,-0.386666***,0.000002,0.000425
+BorrowFlow t,(-3.52),(-3.47),(0.08),(0.79)
+OwnFlow DK t,(4.73),(4.80),,(-0.04)
+OtherVaultFlow DK t,(8.00),(-0.39),(-1.42),(-0.49)
+OutsideFlow DK t,(30.17),(36.98),(0.94),(-1.79)
+BorrowFlow DK t,(-3.49),(-3.46),(0.09),(0.77)
+Date FE,No,No,No,No
+Year-month FE,No,No,No,No
+Weekday FE,No,No,No,No
+Chain-by-state FE,No,No,No,No
+Market FE,No,No,No,No
+Chain FE,No,No,No,No
+Event-pair FE,No,No,No,No
+Vault FE,Yes,Yes,Yes,Yes
+Obs.,4380,4380,480,4374
+Clusters,date:438,date:438,date:367,date:438
+Within R-squared,0.296283570602169,0.303859074514842,0.000371444094293683,0.00123847878120764
+Outcome mean,0.0503780875650295,0.0503780875650295,-3.76495336229166e-05,0.000300479834411386
+p(OtherVaultFlow = OutsideFlow) cluster,0.116297182023557,0.00150179030258811,0.232225067057814,0.567468605622202
+p(OtherVaultFlow = OutsideFlow) Driscoll-Kraay5,0.114976398210785,0.00119835628798701,0.26083551821031,0.526269793094939
+Peer_x_exposure,,0.240747***,,
+Peer_x_exposure t,,(2.63),,
+ExposureShare,,-0.091434,,
+ExposureShare t,,(-0.15),,
+Peer_x_exposure DK t,,(2.85),,
+ExposureShare DK t,,(-0.17),,

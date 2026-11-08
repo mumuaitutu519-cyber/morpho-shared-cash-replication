@@ -1,0 +1,29 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "fromBlock": "0x20daa50",
+        "toBlock": "0x20dd15f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ]
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32602,
+      "message": "Archive requests require a personal token. Get one at: https://www.allnodes.com/publicnode"
+    },
+    "id": 1
+  },
+  "status": 403,
+  "sha256": "9a9c4cad7278f824736e3f2579d619b818ecf0c17cab024fb739e1cb63fe82e8",
+  "retrieved_utc": "2026-09-07T10:47:56.590666+00:00"
+}

@@ -1,0 +1,11 @@
+# R25 empirical presentation and analysis plan
+2026-09-07. Established before the new models below are estimated. Existing R5 results already observed; this is an ex ante specification freeze for the extension, not preregistration.
+
+Population: existing Spark Base account and registered vault; daily dates 2025-01-16 through 2025-11-30. Keep original 94 atomic deposits and all withdrawal-state checks. Do not expand cohort based on desired results.
+
+1. Standard descriptive statistics (N, mean, SD, median, min, max), in separate panels for 94 deposits, 319 account days, and 319 market days. Million native USDC, percentages explicitly defined.
+2. Main conditional allocation table: archived R5 vault-to-common-market net supply equation using lagged net borrowing, lagged other-supplier net supply, lagged utilization, lagged outcome, month and weekday effects. Replay unchanged. Add parsimonious no-calendar comparison and HAC14 comparison, same dates and terms.
+3. Independent account outcome extension: replace outcome with treasury net vault deposits, using its own lag, otherwise same lagged market predictors and calendar effects. All complete days. This observes account allocations but not marginal source-labeled investment or exogenous borrowing shocks. Do not regress coverage on its algebraic components as a behavioral mechanism.
+4. Report coefficient/robust t-statistic format; three focal p values Holm-adjusted within each specification in companion CSV. No confidence-interval columns in main tables. Preserve full covariance matrices and intervals in numeric replication outputs, plus existing lead and stationarity diagnostics in appendix. The archived calendar specification remains the primary vault specification; new comparisons are sensitivity/account-level extension, not replacement selected by significance.
+5. Replace main funding whisker figure with event/value composition bar chart; retain exact feasible ranges in one funding table. Add monthly gross deposits/withdrawals and net flow chart. These sum observed flows, not source attribution. Improve capacity scatter to W/D against D, equality at 1, no common-denominator visual ambiguity.
+6. Complete Gauntlet three-date validation update with free API archived results, preserving exclusion robustness and unknown fee-share residuals.

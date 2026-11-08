@@ -1,0 +1,16 @@
+{
+  "status": "partial scope, exploratory",
+  "primary_definition": "gross committed ERC4626 Withdraw logs in a fixed UTC clock hour >=5% of pre-hour totalAssets; also 2/10%; redeem emits the same event",
+  "followup": "other-vault gross withdrawal over next1/6/24/72h after the shock hour, divided by receiver pre-hour assets",
+  "exposure": "share of receiver positive positions in source-vault markets at the pre-hour state; separate binary shared indicator",
+  "placebo": "one fixed-seed random hour without a >=2% source withdrawal in same W1/W2 state window, same source and paired common receiver vaults",
+  "FE": "event effects; event date effects nest exactly inside event effects and are absorbed rather than counted twice",
+  "covariance": "cluster by actual event date (placebo uses placebo date)",
+  "seed": 20261018,
+  "gaps": [
+    "Base hourly all-vault positions/totalAssets not archived; Base result covers only the fixed ten-vault cohort, not all162 vaults.",
+    "Ethereum pre-hour states cover only W1/W2 plus prior7d, not the full439-day interval.",
+    "Fixed clock-hour aggregation is used, not every possible sliding60-minute window.",
+    "A paired receiver must have a positive-asset snapshot at both event and placebo hours."
+  ]
+}

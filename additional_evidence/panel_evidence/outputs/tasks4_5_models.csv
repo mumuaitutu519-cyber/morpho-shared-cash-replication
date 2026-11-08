@@ -1,0 +1,26 @@
+model,spec,Obs,FE,clusters,df_p,R2,within_R2,outcome_mean,outcome,eligible,dropped,rank,absorbed,wild_draws
+task4_duplication,asset_weighted,436,month + weekday,none,412,0.432628735272829,0.0183140607115784,0.973835926887569,weighted_duplication,,,,,
+task4_duplication,exclude_Spark,439,month + weekday,none,415,0.885414754363864,0.121218049894151,0.375067854129093,duplication,,,,,
+task4_duplication,HAC14_no_calendar_FE,439,none,none,435,0.102918249215124,,0.583691891386779,duplication,,,,,
+task4_duplication,lagged_outcome,439,month + weekday,none,414,0.902177486698491,0.642286196307396,0.583691891386779,duplication,,,,,
+task4_J_assets,asset_weighted,436,month + weekday,none,411,0.433331298124504,0.0195296599423357,0.973835926887569,weighted_duplication,,,,,
+task4_J_assets,exclude_Spark,439,month + weekday,none,414,0.901984469248593,0.12476883057163,0.457803411809332,J_assets,,,,,
+task4_J_assets,HAC14_no_calendar_FE,439,none,none,434,0.538378922289427,,0.154335265304471,J_assets,,,,,
+task4_J_assets,lagged_outcome,439,month + weekday,none,413,0.782911835794563,0.569298710454473,0.154335265304471,J_assets,,,,,
+task4_cross_a,exclude_1,208,chain,chain:3,2,,0.521711841323169,0.566387064287069,,208,0,8,,0
+task4_cross_a,exclude_8453,181,chain,chain:3,2,,0.56486640032233,0.497778039234577,,181,0,8,,0
+task4_cross_a,exclude_42161,302,chain,chain:3,2,,0.572707732117937,0.555571866510153,,302,0,8,,0
+task4_cross_a,exclude_137,323,chain,chain:3,2,,0.580647482241712,0.580677205662752,,323,0,8,,0
+task4_cross_b,exclude_1,1287,chain_state,entity:222,221,,0.709386018822953,0.724292969437873,,1287,0,26,,0
+task4_cross_b,exclude_8453,1184,chain_state,entity:204,203,,0.693032667649143,0.674322839018051,,1184,0,26,,0
+task4_cross_b,exclude_42161,1905,chain_state,entity:327,326,,0.712619111280294,0.689163102416418,,1905,0,26,,0
+task4_cross_b,exclude_137,2047,chain_state,entity:354,353,,0.709611858510377,0.714309976880116,,2047,0,26,,0
+task4_cross_b,two_way_entity_date,2141,chain_state,entity:369;date:7,6,,0.70613908782658,0.701480854093226,,2141,0,33,,0
+task4_cross_c,exclude_1,1287,entity + chain_state,entity:222,221,,0.366508252955553,0.724292969437873,,1287,0,245,,0
+task4_cross_c,exclude_8453,1184,entity + chain_state,entity:204,203,,0.446891706306384,0.674322839018051,,1184,0,227,,0
+task4_cross_c,exclude_42161,1905,entity + chain_state,entity:327,326,,0.406461153555829,0.689163102416418,,1905,0,350,,0
+task4_cross_c,exclude_137,2047,entity + chain_state,entity:354,353,,0.400072749674583,0.714309976880116,,2047,0,377,,0
+task4_cross_c,two_way_entity_date,2141,entity + chain_state,entity:369;date:7,6,,0.406158874132526,0.701480854093226,,2141,0,398,,0
+task5,interaction,3167,market + date,market:15;date:439,14,,0.197278402962011,0.381983821773614,,3167,0,458,,0
+task5,count_le_median,1725,market + date,market:14;date:437,13,,0.100396264962077,0.242702599170709,,1725,0,454,,0
+task5,count_gt_median,1442,market + date,market:8;date:439,7,,0.278196369102733,0.548599708729239,,1442,0,450,,0

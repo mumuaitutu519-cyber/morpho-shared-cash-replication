@@ -1,0 +1,6 @@
+model,spec,Obs,R2,within_R2,clusters_entity,clusters_date,df_p,FE,covariance,slope_equals_one_p,intercept_equals_zero_p,first,last,wild_draws,wild_method,excluded_rows
+mechanism,a_pooled,495,0.99999964328199997,,93,,92,none,transaction cluster CR1,0.12592153294299999,0.53014546041300004,2025-04-03,2025-11-30,,,
+mechanism,b_transaction_FE,495,0.99999971545300004,0.99999964707,93,,92,transaction,transaction cluster CR1,0.16543537095399999,,2025-04-03,2025-11-30,,,
+mechanism,c_constrained,17,0.99999944418200004,,17,,16,none,transaction cluster CR1,0.18322661850499999,0.568957355005,2025-09-02,2025-10-04,,,
+mechanism,d_constrained_from_2025_04_23,17,0.99999944418200004,,17,,16,none,transaction cluster CR1,0.18322661850499999,0.568957355005,2025-09-02,2025-10-04,,,
+mechanism,e_formula_error,495,0.089979639411564505,,93,,92,none,transaction cluster CR1,,0.25717679742538585,2025-04-03,2025-11-30,,,

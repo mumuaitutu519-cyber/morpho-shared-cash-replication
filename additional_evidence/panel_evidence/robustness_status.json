@@ -1,0 +1,12 @@
+{
+  "market_count_median": 3.0,
+  "all_versions": "Archived states cover Morpho V1 native-USDC positions only. V2 adapters, their positions, and cross-token asset conversion states are absent. No all-version exposure was substituted.",
+  "undefined_asset_weighted_dates": [
+    "2025-02-20",
+    "2025-08-22",
+    "2025-08-29"
+  ],
+  "asset_weighted": "sum(assets_v*D_v)/sum(assets_v); same weighted outcome in both daily model control sets as explicitly requested",
+  "exclude_Spark": "Network S/J and aggregate controls recomputed from nine vaults; external Spark flow retained as a control in the J/assets specification, divided by nine-vault assets",
+  "HAC14": "Calendar fixed effects removed and lag 14 HAC used, as requested"
+}

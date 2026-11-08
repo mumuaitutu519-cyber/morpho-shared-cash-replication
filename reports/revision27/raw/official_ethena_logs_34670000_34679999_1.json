@@ -1,0 +1,59 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "fromBlock": "0x21105b0",
+        "toBlock": "0x2112cbf",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ]
+      }
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "result": [
+      {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "blockHash": "0x87e87d9fe2e5d5d2da7715b690a65be5f5cc2f983bf988b8919d4d55cd046328",
+        "blockNumber": "0x2110beb",
+        "blockTimestamp": "0x68ac74b9",
+        "data": "0x00000000000000000000000000000000000000000000000000000000000f4240",
+        "logIndex": "0x161",
+        "removed": false,
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "0x0000000000000000000000007bfa7c4f149e7415b73bdedfe609237e29cbf34a"
+        ],
+        "transactionHash": "0x4de9bc4f2f99d6e6804f3bff19b4cc0ce6d8a57bbedb1db4636ccc48cdfb4317",
+        "transactionIndex": "0x53"
+      },
+      {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "blockHash": "0x3ee3103c19c71be1ffe0aaa5cbfefa24629e56b6aa6372dd9e1d4b5a227bff47",
+        "blockNumber": "0x2110cb8",
+        "blockTimestamp": "0x68ac7653",
+        "data": "0x000000000000000000000000000000000000000000000000000000e8d4a51000",
+        "logIndex": "0x222",
+        "removed": false,
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "0x0000000000000000000000007bfa7c4f149e7415b73bdedfe609237e29cbf34a"
+        ],
+        "transactionHash": "0x9a0026ea64bbc6c556bde6696d5d241d3dabb68f72b839d5ffd58738ea7a94cb",
+        "transactionIndex": "0x74"
+      }
+    ],
+    "id": 1
+  },
+  "status": 200,
+  "sha256": "705abd5c6c6edcf8969e79bf34efd7a415244bdba14ec9f87953a2f558dd85cb",
+  "retrieved_utc": "2026-09-07T10:49:26.092639+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "days": 319,
+  "tagged_supplies_usdc": 5931327802.114964,
+  "tagged_withdrawals_usdc": 5680767906.642742,
+  "targets": {
+    "borrow": {
+      "payments_usdc": 1826197173.785017,
+      "lower_usdc": 0.0,
+      "upper_usdc": 1464645323.2775164,
+      "days_positive_lower": 0,
+      "max_daily_lower_usdc": 0.0
+    },
+    "other_withdrawal": {
+      "payments_usdc": 15238307214.815569,
+      "lower_usdc": 0.0,
+      "upper_usdc": 5060585554.5584545,
+      "days_positive_lower": 0,
+      "max_daily_lower_usdc": 0.0
+    },
+    "union": {
+      "payments_usdc": 17064504388.600588,
+      "lower_usdc": 0.0,
+      "upper_usdc": 5428345258.508965,
+      "days_positive_lower": 0,
+      "max_daily_lower_usdc": 0.0
+    }
+  },
+  "all_integer_witnesses_feasible": true,
+  "max_primal_objective_gap_usdc": 1.2665987014770508e-07,
+  "scope": "Gross daily first-use support of completed payments, conditional on complete retained cash ledger; day-opening cash is alternative funding, not attributed. No causal removal or unique permanent token labels."
+}

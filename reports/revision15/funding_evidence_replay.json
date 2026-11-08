@@ -1,0 +1,190 @@
+{
+  "capacity": {
+    "status": "PASS",
+    "dates": 320,
+    "primary_days": 319,
+    "raw_files_checked": 1280,
+    "minimum_positive_shortfall_micro": "1093932864905",
+    "all_treasury_shares_equal_api": true,
+    "total_share_gap_days": 170,
+    "max_relative_total_share_gap": 4.0163349949928894e-07,
+    "api_total_reconstruction_claim_gap_micro_min": -199751,
+    "api_total_reconstruction_claim_gap_micro_max": 0,
+    "provider_difference_status": "Retained, not attributed conclusively to accrual or timing",
+    "withdrawal_capacity": {
+      "days": 319,
+      "capacity_below_claim_days": 317,
+      "fraction": {
+        "min": 0.033465381813833565,
+        "median": 0.19421326001076866,
+        "max": 1.0,
+        "end": 0.8137206053018993
+      },
+      "claim_million": {
+        "median": 346.564592772,
+        "end": 285.414888453538
+      },
+      "capacity_million": {
+        "median": 51.711518041276,
+        "end": 232.247975794587
+      },
+      "shortfall_million": {
+        "median": 282.716514443452,
+        "max": 539.837358602169
+      },
+      "distinct_runtime_codes": 1,
+      "treasury_is_fee_recipient_days": 170,
+      "ownership_provider_exact_days": 149,
+      "scope": "Snapshot liquidity restriction, not loss, failure, causal stabilization or system-wide redemption"
+    }
+  },
+  "completion": {
+    "2": {
+      "status": "PASS",
+      "source_burns": 283,
+      "destination_transactions": 47,
+      "amount_micro": "263885536590439"
+    },
+    "3": {
+      "status": "PASS",
+      "source_burns": 325,
+      "destination_transactions": 66,
+      "amount_micro": "282205100657822"
+    },
+    "6": {
+      "status": "PASS",
+      "source_burns": 3235,
+      "destination_transactions": 704,
+      "amount_micro": "2815362407725804"
+    },
+    "10": {
+      "status": "PASS",
+      "source_burns": 526,
+      "destination_transactions": 119,
+      "amount_micro": "446593998285634"
+    }
+  },
+  "base_market_supply_links": {
+    "status": "PASS",
+    "vault_deposits": 94,
+    "linked_deposits": 92,
+    "all_deposit_micro": "490825769666261",
+    "linked_deposit_micro": "490524510716654",
+    "scope": "Equal-amount ordered deposit and selected-market supply; not marginal borrower drawdown",
+    "unlinked_rows_retained": 2,
+    "positive_and_negative_link_replay": "PASS"
+  },
+  "routes": {
+    "2": {
+      "status": "PASS",
+      "domain": 2,
+      "transactions": 47,
+      "complete_matched_transaction_frame": true,
+      "frame_burns": 283,
+      "frame_micro": "263885536590439",
+      "validated_deposit_micro": "93812391567007",
+      "lower_micro": "93812391567007",
+      "upper_micro": "93812391567007",
+      "zero_lower_transactions": 22,
+      "lp_max_error_usdc": 0.0,
+      "scope": "Feasible first-disposition interval conditional on observed transaction; no behavioral counterfactual",
+      "raw_balance_and_transfer_replay": "PASS",
+      "independent_state_equality_lp_max_error_usdc": 9.313225746154785e-10,
+      "lower_share_of_arrivals": 0.3555041052234993,
+      "upper_share_of_arrivals": 0.3555041052234993,
+      "lower_share_of_deposits": 1.0,
+      "upper_share_of_deposits": 1.0
+    },
+    "6": {
+      "status": "PASS",
+      "domain": 6,
+      "transactions": 704,
+      "complete_matched_transaction_frame": true,
+      "frame_burns": 3235,
+      "frame_micro": "2815362407725804",
+      "validated_deposit_micro": "911534505653134",
+      "lower_micro": "890088470739686",
+      "upper_micro": "907731077557119",
+      "zero_lower_transactions": 515,
+      "lp_max_error_usdc": 1.862645149230957e-09,
+      "scope": "Feasible first-disposition interval conditional on observed transaction; no behavioral counterfactual",
+      "operation_bounds": {
+        "psm": {
+          "lower_micro": "416633963033286",
+          "upper_micro": "419310817995156",
+          "lp_max_error_usdc": 0.0
+        },
+        "vault": {
+          "lower_micro": "471787997608733",
+          "upper_micro": "489890981523934",
+          "lp_max_error_usdc": 1.862645149230957e-09
+        },
+        "credit_linked": {
+          "lower_micro": "471486738659126",
+          "upper_micro": "489589722574327",
+          "lp_max_error_usdc": 1.1641532182693481e-10
+        }
+      },
+      "raw_balance_and_transfer_replay": "PASS",
+      "independent_state_equality_lp_max_error_usdc": 7.450580596923828e-09,
+      "lower_share_of_arrivals": 0.31615413642561296,
+      "upper_share_of_arrivals": 0.32242068554519304,
+      "lower_share_of_deposits": 0.9764726022103997,
+      "upper_share_of_deposits": 0.9958274447402408
+    },
+    "10": {
+      "status": "PASS",
+      "domain": 10,
+      "transactions": 119,
+      "complete_matched_transaction_frame": true,
+      "frame_burns": 526,
+      "frame_micro": "446593998285634",
+      "validated_deposit_micro": "51975492559108",
+      "lower_micro": "46425607095651",
+      "upper_micro": "51975492559108",
+      "zero_lower_transactions": 96,
+      "lp_max_error_usdc": 0.0,
+      "scope": "Feasible first-disposition interval conditional on observed transaction; no behavioral counterfactual",
+      "raw_balance_and_transfer_replay": "PASS",
+      "independent_state_equality_lp_max_error_usdc": 9.313225746154785e-10,
+      "lower_share_of_arrivals": 0.10395483878840209,
+      "upper_share_of_arrivals": 0.11638197727383105,
+      "lower_share_of_deposits": 0.8932211088303682,
+      "upper_share_of_deposits": 1.0
+    }
+  },
+  "facility_operations": {
+    "2": {
+      "status": "PASS",
+      "transactions": 47,
+      "facility_events": 25,
+      "no_operation_transactions": 22,
+      "vault_share_mints_or_burns_checked": 0,
+      "scope": "All eligible raw facility events enumerated; native payments and vault shares replayed"
+    },
+    "3": {
+      "status": "PASS",
+      "transactions": 66,
+      "facility_events": 11,
+      "no_operation_transactions": 55,
+      "vault_share_mints_or_burns_checked": 0,
+      "scope": "All eligible raw facility events enumerated; native payments and vault shares replayed"
+    },
+    "6": {
+      "status": "PASS",
+      "transactions": 704,
+      "facility_events": 296,
+      "no_operation_transactions": 414,
+      "vault_share_mints_or_burns_checked": 156,
+      "scope": "All eligible raw facility events enumerated; native payments and vault shares replayed"
+    },
+    "10": {
+      "status": "PASS",
+      "transactions": 119,
+      "facility_events": 43,
+      "no_operation_transactions": 76,
+      "vault_share_mints_or_burns_checked": 0,
+      "scope": "All eligible raw facility events enumerated; native payments and vault shares replayed"
+    }
+  }
+}

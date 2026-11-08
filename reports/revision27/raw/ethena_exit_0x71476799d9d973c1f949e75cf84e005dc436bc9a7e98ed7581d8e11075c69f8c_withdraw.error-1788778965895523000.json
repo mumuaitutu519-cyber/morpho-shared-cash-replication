@@ -1,0 +1,25 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "from": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "to": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a",
+        "gas": "0x989680",
+        "data": "0xb460af94000000000000000000000000000000000000000000000000000000003b9aca00000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+      },
+      "0x2118486"
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32016,
+      "message": "over rate limit"
+    },
+    "id": 1
+  },
+  "sha256": "9910fb24bc72397c021143bff312765ae09c057b814ebf04410545ba268dbd9e"
+}
